@@ -1,0 +1,4043 @@
+{
+  "Lunedì": {
+    "Colazione": [
+      {
+        "id": "s64d4miy3",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazza",
+        "ingredients": [
+          {
+            "name": "Te', In Tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "a7dgrk4z3",
+            "name": "Caffè",
+            "quantityFromName": "1 tazzina",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "75a7tgck9",
+        "name": "Yogurt Di Latte Intero",
+        "quantityFromName": "1 vasetto da 125 ml",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Intero",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "zt32e9ie6",
+        "name": "Biscotti ColCuore Frollino Integrale Galbusera con beta-glucani",
+        "quantityFromName": "5 unità",
+        "ingredients": [
+          {
+            "name": "Biscotti ColCuore Frollino Integrale Galbusera con beta-glucani",
+            "quantity": "31,5 g"
+          }
+        ],
+        "notes": "Biscotto con Beta Glucani, particolari fibre che aiutano a ridurre il colesterolo.",
+        "alternatives": [
+          {
+            "id": "12dtgs020",
+            "name": "Biscotti \"Cereal\" alla Crusca di Avena",
+            "quantityFromName": "5 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti \"Cereal\" alla Crusca di Avena",
+                "quantity": "30 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "8tbcs98ex",
+            "name": "Biscotti BuonPerTutti Galbusera",
+            "quantityFromName": "3 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti BuonPerTutti Galbusera",
+                "quantity": "16,2 g"
+              }
+            ],
+            "notes": "Biscotti con farina di legumi, grazie al contenuto di proteine vegetali e fibre, risultano nutrienti e sazianti. La loro consistenza necessita di una masticazione prolungata, utile a regolare il comportamento alimentare. Un biscotto che, per le sue caratteristiche nutrizionali, risulta utile nella quotidiana colazione tipicamente italiana."
+          },
+          {
+            "id": "n36raka35",
+            "name": "Biscotti PiùIntegrali Galbusera",
+            "quantityFromName": "4 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti PiùIntegrali Galbusera",
+                "quantity": "27,6 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "gih3qy6wv",
+            "name": "Frollini con fiocchi di orzo e farina d'avena - BeneSì Coop",
+            "quantityFromName": "4 unità",
+            "ingredients": [
+              {
+                "name": "Frollini con fiocchi di orzo e farina d'avena - BeneSì Coop",
+                "quantity": "32 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "nsxyifpkt",
+            "name": "Germinal, Bio biscotti integrali avena",
+            "quantityFromName": "5 unità",
+            "ingredients": [
+              {
+                "name": "Germinal, Bio biscotti integrali avena",
+                "quantity": "35,5 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "29hbv2nsr",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "dn68j41vp",
+        "name": "Insalata di cereali misti con dadini di verdure",
+        "quantityFromName": "1 pugno schiacciato  e  ¾",
+        "ingredients": [
+          {
+            "name": "Orzo",
+            "quantity": "45,00 g"
+          },
+          {
+            "name": "Riso",
+            "quantity": "35,00 g"
+          },
+          {
+            "name": "Farro",
+            "quantity": "42,70 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "9,00 g"
+          },
+          {
+            "name": "Zucchine",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Cetrioli",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          }
+        ],
+        "notes": "In commercio si trovano mix di vari cereali pronti da cuocere, spesso con tempi di cottura brevi (circa 10-12 minuti). Si segnalano, tra gli altri, i \"3 cereali Extra (Riso Integrale, Avena e Grano Senatore Cappelli)\" di Riso Gallo, i \"Mix di 5 cereali\" di Barilla e di Colfiorito, i 5 cereali \"C'è di buono in Italia\" di Pedon. Questi prodotti non sono da confondere con i sacchetti misti di cereali e legumi (per legumi s'intendono ceci, fagioli, lenticchie, piselli), che sono validi nella maggior parte dei casi, ma non sono equivalenti ai mix di soli cereali e pertanto si inseriscono in un contesto differente.   Il mix di cereali può essere poi consumato freddo nel caso di piatti più estivi, oppure caldo-tiepido nella stagione invernale. Si consiglia l'inserimento di verdure a piacere per rendere il piatto più ricco di fibre e abbassarne la densità energetica. Cuocendo le verdure insieme ai cereali (ad esempio, broccoli crudi inseriti nell'acqua in cui stanno cuocendo i cereali circa 2 minuti prima del termine della cottura) è possibile incorporare una significativa quantità di verdure nel primo piatto senza aumentare la quota di olio, che potrà essere aggiunto a parte. E' possibile inoltre aggiungere spezie a piacere, quali pepe o peperoncino, ed anche 1 cucchiaino di parmigiano grattuggiato. Non è possibile però aggiungere mozzarella a cubetti in quanto ne incrementerebbe la densità energetica. Il volume del cereale con verdure espresso in pugni, mestoli o cup risulta maggiore rispetto ad altre ricette: a parità di grammi di cereali, le verdure ne incrementeranno il volume.",
+        "alternatives": [
+          {
+            "id": "0s2tc0ke1",
+            "name": "Insalata di farro con verdure a cubetti saltate o grigliate",
+            "quantityFromName": "1 pugno schiacciato  e  ¾",
+            "ingredients": [
+              {
+                "name": "Farro",
+                "quantity": "111,80 g"
+              },
+              {
+                "name": "Melanzane",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Zucchine",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Pomodori Da Insalata",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Peperoni Dolci",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "10,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Basilico, Fresco",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "oots6kw0s",
+            "name": "Pedon \"I salvaminuti\" con moderata aggiunta di olio a crudo",
+            "quantityFromName": "1 pugno schiacciato  e  ¼",
+            "ingredients": [
+              {
+                "name": "Pedon 5 cereali \"I salvaminuti\"",
+                "quantity": "115,60 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "8,00 g"
+              }
+            ],
+            "notes": "Vi sono diverse tipologie di miscele di cereali con o senza legumi che Pedon ha assortito, comode perché bollono in soli 10 min in quanto hanno uniformato i tempi di cottura di vari legumi e cereali, altrimenti sarebbero stati differenti e più lunghi e complicati da preparare. Si trovano varie associazioni e molte sono interessanti, possono essere consumate con olio extravergine, oppure con verdure a cubetti ed erbe aromatiche, verdure che possono essere aggiunte negli ultimi minuti di cottura per essere \"scottate\", ad esempio gli spinaci possono essere aggiunti anche congelati se vi è una quantità sufficiente di acqua da non fermare l'ebollizione."
+          },
+          {
+            "id": "yfnkwv8s8",
+            "name": "Riso venere integrale bollito con extravergine a crudo",
+            "quantityFromName": "1 pugno schiacciato  e  ½",
+            "ingredients": [
+              {
+                "name": "Riso Integrale, Crudo",
+                "quantity": "130,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "9,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              }
+            ],
+            "notes": "Il riso integrale ha tempi di cottura lunghi, segnalo la versione Di Riso Scotti pronta in 10  minuti e RisoGallo Blond integrale che cuoce in 14 minuti e aggiunge ai vantaggi del riso integrale quelli del parboiling sulla riduzione della risposta glicemica. Anche il riso Flora integrale è un parboiled, con 18  minuti stimati di cottura."
+          }
+        ]
+      },
+      {
+        "id": "4td0i2zjz",
+        "name": "Insalata di radicchio verde, rapanelli, cipollotto, semi di zucca e lino",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Radicchio Verde",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Ravanelli",
+            "quantity": "70,00 g"
+          },
+          {
+            "name": "Cipolle",
+            "quantity": "25,00 g"
+          },
+          {
+            "name": "Semi di Zucca",
+            "quantity": "6,00 g"
+          },
+          {
+            "name": "Lino, Semi",
+            "quantity": "5,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "12,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Lavare e strizzare il radicchio verde, tagliarlo a striscioline sottili utilizzando un coltello ben affilato oppure un’affettatrice, lavare e tagliare a fettine o a julienne i rapanelli, lavare e tagliare a fettine molto sottili il cipollotto. Unire tutte le verdure in una zuppiera, aggiungere i semi di zucca tostati e i semi di lino e, se disponibili, i lampascioni sott’olio. Condire la verdura con olio extravergine, aceto o succo di limone, sale con moderazione e pepe a piacere, se possibile lasciare riposare per 5-10 minuti in modo che l’acidità del limone renda “cuocia” un poco le verdure.",
+        "alternatives": [
+          {
+            "id": "k6q0c9map",
+            "name": "Insalata mista con pomodori e carote, condita",
+            "quantityFromName": "3 pugni",
+            "ingredients": [
+              {
+                "name": "Radicchio Rosso",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Lattuga",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Carote",
+                "quantity": "70,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "140,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,70 g"
+              },
+              {
+                "name": "Aceto",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "12,00 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra pranzo e cena": [
+      {
+        "id": "0jpfjhznn",
+        "name": "Noci, Secche",
+        "quantityFromName": "10 gherigli",
+        "ingredients": [
+          {
+            "name": "Noci, Secche",
+            "quantity": "20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "7kyxjx8fx",
+            "name": "Mandorle Dolci, Secche",
+            "quantityFromName": "15 unità",
+            "ingredients": [
+              {
+                "name": "Mandorle Dolci, Secche",
+                "quantity": "0 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "8wwdob1gu",
+            "name": "Nocciole, Secche",
+            "quantityFromName": "15 unità",
+            "ingredients": [
+              {
+                "name": "Nocciole, Secche",
+                "quantity": "19,5 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Cena": [
+      {
+        "id": "za0aztt3u",
+        "name": "Minestrone di verdure con un poco di legumi, ed orzo",
+        "quantityFromName": "1 fondina (250 ml)",
+        "ingredients": [
+          {
+            "name": "Cipolle",
+            "quantity": "20,00 g"
+          },
+          {
+            "name": "Orzo, Perlato",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Piselli",
+            "quantity": "20,00 g"
+          },
+          {
+            "name": "Aglio, Fresco",
+            "quantity": "2,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Prezzemolo, Fresco",
+            "quantity": "2,00 g"
+          },
+          {
+            "name": "Sedano",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Brodo Vegetale",
+            "quantity": "50,00 g"
+          },
+          {
+            "name": "Verza",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Fagioli lessati",
+            "quantity": "20,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "5,00 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Parmigiano",
+            "quantity": "5,00 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "uvv62husi",
+            "name": "Passato di verdure con un poco di legumi e patate",
+            "quantityFromName": "1 fondina (250 ml)",
+            "ingredients": [
+              {
+                "name": "Brodo Di Carne E Verdura",
+                "quantity": "100,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Piselli",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "2,00 g"
+              },
+              {
+                "name": "Carote",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "2,00 g"
+              },
+              {
+                "name": "Sedano",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Patate",
+                "quantity": "50,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Verza",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Fagioli lessati",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Parmigiano",
+                "quantity": "5,00 g"
+              }
+            ],
+            "notes": "Ok anche passati di verdura pronti (a titolo d'esempio Orogel o Findus, oppure a marchio del supermercato o \"private label\" quali Esselunga, Conad, Coop, Iper...) disponibili sia in scodelle banco frigo sia surgelati in busta. Vanno bene sia passati di verdure miste, sia vellutate mono-gusto (es. crema di carote), con una percentuale di patate non superiore al 20%. A tal proposito, gli ingredienti sono indicati in etichetta in ordine decrescente a seconda della quantità presente nel prodotto (ovvero, il primo ingrediente della lista è presente in maggior quantità), se la percentuale di patate non è indicata, si consiglia di selezionare prodotti che abbiano patate almeno come terzo ingrediente."
+          }
+        ]
+      },
+      {
+        "id": "wb3a9zb1m",
+        "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+        "quantityFromName": "2 cucchiai",
+        "ingredients": [
+          {
+            "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+            "quantity": "20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "qymm3ggan",
+        "name": "Pane a fette Integrale",
+        "quantityFromName": "1 mano",
+        "ingredients": [
+          {
+            "name": "Pane a fette Integrale",
+            "quantity": "50 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "sivax12z8",
+            "name": "Wasa original",
+            "quantityFromName": "4 fette",
+            "ingredients": [
+              {
+                "name": "Wasa original",
+                "quantity": "41,2 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "dhhywfv7f",
+        "name": "uova al tegamino, strapazzate, come frittata, preparate con uova",
+        "quantityFromName": "2 unità",
+        "ingredients": [
+          {
+            "name": "Uovo Di Gallina, Intero",
+            "quantity": "105,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "z7dv25hrv",
+            "name": "Uova con omega3 Aequilibrium AIA",
+            "quantityFromName": "2 unità",
+            "ingredients": [
+              {
+                "name": "Uova con omega3 Aequilibrium AIA",
+                "quantity": "100 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "50k0ff8bv",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  },
+  "Martedì": {
+    "Colazione": [
+      {
+        "id": "a7ej5opq5",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazza",
+        "ingredients": [
+          {
+            "name": "Te', In Tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "a6iskzzse",
+            "name": "Caffè",
+            "quantityFromName": "1 tazzina",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "yee1dpee7",
+        "name": "Latte parzialmente scremato",
+        "quantityFromName": "1 tazza da 200 ml",
+        "ingredients": [
+          {
+            "name": "Latte parzialmente scremato",
+            "quantity": "200 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "bd1ui8dbn",
+            "name": "Latte Di Soia",
+            "quantityFromName": "1 tazza da 250 ml",
+            "ingredients": [
+              {
+                "name": "Latte Di Soia",
+                "quantity": "250 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "n0kok20gl",
+        "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+        "quantityFromName": "2 cucchiai",
+        "ingredients": [
+          {
+            "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+            "quantity": "20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "8x3rbrloq",
+            "name": "Crusca di avena",
+            "quantityFromName": "3 cucchiai da minestra",
+            "ingredients": [
+              {
+                "name": "Crusca di avena",
+                "quantity": "18 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "v5rm645fi",
+            "name": "Fiocchi Di Avena",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Fiocchi Di Avena",
+                "quantity": "20 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "5gl3ib7yt",
+        "name": "Sarchio Muesli Active con mandorle, nocciole con beta-glucani",
+        "quantityFromName": "3 cucchiai",
+        "ingredients": [
+          {
+            "name": "Sarchio Muesli Active con mandorle, nocciole con beta-glucani",
+            "quantity": "25,5 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "kytnmt445",
+            "name": "Kellogg's Nice Morning, benessere integrale, ricchi di fibre",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Kellogg's Nice Morning, benessere integrale, ricchi di fibre",
+                "quantity": "16,5 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "e2rzc7spw",
+            "name": "Muesli BeneSì Coop con fiocchi avena, semi lino e zucca con beta-glucani",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Muesli BeneSì Coop con fiocchi avena, semi lino e zucca con beta-glucani",
+                "quantity": "24 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "b1chrgx0z",
+            "name": "Muesli di avena con frutta (con betaglucani) - Nattura",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Muesli di avena con frutta (con betaglucani) - Nattura",
+                "quantity": "24 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "6zifnwmre",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "3aevyxfw8",
+        "name": "Insalata di lenticchie, piselli e carote",
+        "quantityFromName": "12 cucchiai",
+        "ingredients": [
+          {
+            "name": "Lenticchie lessate",
+            "quantity": "85,00 g"
+          },
+          {
+            "name": "Piselli lessati",
+            "quantity": "85,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "100,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "5,00 g"
+          }
+        ],
+        "notes": "per velocizzre la preparazione possono essere usate anche lenticchie in scatola, mentre per i piselli , oltre a quelli freschi, è preferibile usare il prodotto congelato in quanto mantiene meglio le proprietà organolettiche rispetto a quello in scatola. Possono essere cotti al vapore insieme piselli e carote, ed aggiunte spezie a piacere (ex alloro).Può essere consumata tiepida o fredda.",
+        "alternatives": [
+          {
+            "id": "aairot2db",
+            "name": "Ceci con spinaci, cicoria o erbette",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Ceci lessati",
+                "quantity": "180,00 g"
+              },
+              {
+                "name": "Cicoria",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "8f8sjg2sc",
+            "name": "Fave con sedano, extravergine e menta",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Fave (anche surgelate o in scatola)",
+                "quantity": "180,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sedano",
+                "quantity": "90,00 g"
+              }
+            ],
+            "notes": "possono essere usate le fave fresche, ma anche quello surgelate, oppure pronte in scatola ma ben sciacquate, a cui si aggiunge semplicemente olio extravergine e pepe, oppure menta."
+          },
+          {
+            "id": "hc42ow5t0",
+            "name": "Insalata fredda di ceci o lenticchie con peperonata o ratatouille",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Peperonata",
+                "quantity": "100,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "3,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Ceci lessati",
+                "quantity": "160,00 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "y4i3vkb5d",
+            "name": "Legumi con olio extravergine (fagioli, ceci, lenticchie o fave)",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "10,00 g"
+              },
+              {
+                "name": "Legumi (fagioli, ceci, lenticchie, piselli o fave)",
+                "quantity": "230,00 g"
+              }
+            ],
+            "notes": "Nell'ambito della dieta mediterranea è suggerito un  consumo frequente di legumi, non solo come contorno ma anche come portata principale. Per vari motivi sono state dimenticate ricette che potevano variarne un poco il sapore far sì che il loro consumo sistematico non diventi noioso. Alcuni abbinamenti proposti hanno lo scopo di provare anche ricette differenti con lo scopo di incoraggiarne il consumo. Sicuramente i legumi che si preparano a partire da quelli secchi, surgelati o addirittura freschi sono preferibili, anche da un punto di vista organolettico, tuttavia i legumi in scatola rappresentano una comoda alternativa, a patto che siano di buona qualità, consumati lontano dalla data di scadenza (tendono ad assorbire con il tempo la salamoia), e sciacquati con un colino, setaccio o scolapasta sotto abbondante acqua corrente."
+          },
+          {
+            "id": "bjpd0oj8z",
+            "name": "Lenticchie in umido con sugo al pomodoro",
+            "quantityFromName": "12 cucchiai da minestra",
+            "ingredients": [
+              {
+                "name": "Lenticchie, Secche",
+                "quantity": "55,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "6,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "20,00 g"
+              },
+              {
+                "name": "Passata di pomodoro",
+                "quantity": "75,00 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "3,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Peperoncini Piccanti",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": "Per preparare legumi in umido (lenticchie, ceci, fagioli o fave o preparati misti) può seguire uno schema simile: 500 gr di legumi secchi + 1,5 lt di acqua + una lattina di passata pomodoro + 2 cipolle medie + verdura mista a cubetti (carote-peperoni verdi, cavolo, zucchine o altro) da aggiungere nell’ultima fase della cottura in base ai tempi di cottura delle singole verdure . Al termine della preparazione a crudo aggiungerà l’olio. Utilizzando la pentola a pressione può diminuire i tempi di cottura."
+          }
+        ]
+      },
+      {
+        "id": "ctnnm3hyb",
+        "name": "Verdura cruda in foglia, condita",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "6,00 g"
+          },
+          {
+            "name": "Verdura cruda in foglia",
+            "quantity": "60,00 g"
+          }
+        ],
+        "notes": "Per verdura in foglia si intendono varietà come la comune lattuga, romana, scarola ma anche il radicchio sia rosso che verde, l’insalata riccia, i grasselli o valeriane e la misticanza. Esse sono particolarmente ricche di acido folico, una vitamina che prende il nome proprio dalla parola “foglia”, talmente utile alla nostra salute da esserne suggerita l’integrazione prima del concepimento per prevenire le serie problematiche dovute ad una carenza. Ma la salute è importante non solo in questi periodi particolari, è dunque suggeribile un consumo frequente di verdura in foglia, in porzioni anche maggiori di quella indicata che è la porzione minima: abbondare con la verdura è possibile, a partita di condimento suggerito.Il consumo regolare di verdura è uno dei cardini di un’alimentazione sana, alla luce anche del ruolo fondamentale che essa ha per la salute del nostro microbiota, consumarne meno di quanto indicato sia in termini di porzione che di frequenza di consumo compromette l’efficacia ed il bilanciamento nutrizionale della dieta.",
+        "alternatives": []
+      },
+      {
+        "id": "nd6e3yd4s",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      },
+      {
+        "id": "csp1xwyxg",
+        "name": "Pane Integrale",
+        "quantityFromName": "1 mano alta 2 dita",
+        "ingredients": [
+          {
+            "name": "Pane Integrale",
+            "quantity": "60 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      }
+    ],
+    "Tra pranzo e cena": [
+      {
+        "id": "3lur6umkf",
+        "name": "Yogurt Di Latte Parzialmente Scremato",
+        "quantityFromName": "1 vasetto da 125 g",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Parzialmente Scremato",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "xz7xr7yny",
+        "name": "Miele",
+        "quantityFromName": "1 cucchiaino",
+        "ingredients": [
+          {
+            "name": "Miele",
+            "quantity": "5 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "pd2ej00p6",
+        "name": "Fiocchi Di Avena",
+        "quantityFromName": "2 cucchiai",
+        "ingredients": [
+          {
+            "name": "Fiocchi Di Avena",
+            "quantity": "10 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "c7v5s1j1y",
+            "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+            "quantityFromName": "2 cucchiaini",
+            "ingredients": [
+              {
+                "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+                "quantity": "10 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Cena": [
+      {
+        "id": "5h2nmdrcj",
+        "name": "Secondo piatto a base di pesce, cucinato con ricette semplici",
+        "quantityFromName": "1 mano",
+        "ingredients": [
+          {
+            "name": "Pesce intero, in filetti o tranci",
+            "quantity": "150,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Erbe Aromatiche (FOGLIE)",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Il pesce può essere sostanzialmente di qualsiasi tipo, escluderei solamente pesci quali  aringhe, anguilla, pesce gatto e tinca, può essere fresco oppure surgelato Se si usa il pesce congelato è preferibile scongelarlo mettendolo la sera prima in frigorifero oppure con il microonde, questo aiuta a mantenere una buona consistenza.Le più comuni ricette vanno bene, è possibile cuocerlo al forno (anche a microonde), alla griglia, al vapore, si dovrà solo porre un poco di attenzione e non esagerare con l’olio, nonchè ricordarsi che il controllo della porzione è importante anche con il pesce.E‘ interessante la cottura al vapore perché mantiene una buona consistenza e sapore. E‘ sufficiente adagiare i filetti su di un cestello inox per cottura al vapore, strumento economico che si adatta a pentole di vario diametro, lo inseriremo in una pentola sempre inox, poche dita di acqua saranno sufficienti in quanto non devono raggiungere il cestello. È possibile usare anche lo scolapasta inox presente in alcune pentole per la cottura della pasta. Chiudete la pentola con il coperchio, la cottura del pesce dipende molto dallo spessore dei filetti, solitamente è attorno ai 10 min, e con una semplice ispezione visiva si capisce a che punto è la cottura. Aggiungere poi un pizzico di sale e olio a crudo sul proprio piatto, eventualmente prezzemolo tritato.La cottura in padella è forse la più difficile, soprattutto se si usa il pesce già sfilettato tende ad essere troppo aggressiva per la consistenza delicata del pesce, a meno che non si usi un pesce ricco di grassi come il salmone, anche di grassi buoni come gli omega 3. Per evitare il contato diretto tra pentola e filetto esso può essere cotto su un “letto” di verdure come zucchine, peperoni ma anche spinaci, scarola ed altre.",
+        "alternatives": [
+          {
+            "id": "o6x40pzf0",
+            "name": "Filetti di merluzzo con pomodori, olive e capperi",
+            "quantityFromName": "1 mano",
+            "ingredients": [
+              {
+                "name": "Merluzzo",
+                "quantity": "145,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Olive Nere",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "150,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "4,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "7,00 g"
+              },
+              {
+                "name": "Basilico, Fresco",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": "Se si usa pesce congelato, è preferibile far scongelare il pesce in frigorifero (mettendolo la sera su un piatto) oppure nel microonde con il programma specifico, in modo da eliminare l’acqua in eccesso che non aiuta una buona cottura, mantenedo una consistenza accettabile anche per il pesce congelato.Mettere in una padella l'olio extra vergine d'oliva, la cipolla tritata e l'aglio spellato, far soffriggere il tutto a fiamma media per alcuni minutiUnire il pomodoro tagliato a cubetti oppure la passata, i filetti di pesce,  le olive ed i capperi se graditi. Lasciare cuocere col coperchio a fiamma bassa per alcuni minuti."
+          },
+          {
+            "id": "edckepvy8",
+            "name": "Pesce spada alla siciliana (pomodorini capperi, olive e pinoli)",
+            "quantityFromName": "¾ mano",
+            "ingredients": [
+              {
+                "name": "Pesce Spada",
+                "quantity": "105,00 g"
+              },
+              {
+                "name": "Olive Nere",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Capperi Sott'aceto",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "90,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "1,00 g"
+              },
+              {
+                "name": "Basilico, Fresco",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Pinoli",
+                "quantity": "10,00 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "op261kzp4",
+            "name": "Salmone al forno",
+            "quantityFromName": "½ mano alta un dito e mezzo",
+            "ingredients": [
+              {
+                "name": "Salmone",
+                "quantity": "105,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,10 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "te61z1zlx",
+            "name": "Seppie in umido",
+            "quantityFromName": "1 pugno schiacciato",
+            "ingredients": [
+              {
+                "name": "Seppia",
+                "quantity": "190,00 g"
+              },
+              {
+                "name": "Passata di pomodoro",
+                "quantity": "65,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "7,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "a40rcezis",
+            "name": "Spigola o branzino al forno, sfilettati",
+            "quantityFromName": "1 mano",
+            "ingredients": [
+              {
+                "name": "Spigola D'allevamento, Filetti",
+                "quantity": "150,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "xr1ejcg13",
+        "name": "Riso integrale bollito con extravergine a crudo",
+        "quantityFromName": "½ pugno schiacciato",
+        "ingredients": [
+          {
+            "name": "Riso Integrale, Crudo",
+            "quantity": "45,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "3,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,10 g"
+          }
+        ],
+        "notes": "Il riso integrale ha tempi di cottura lunghi, segnalo la versione Di Riso Scotti pronto in 10  minuti e RisoGallo Blond integrale che cuoce in 14 minuti e aggiunge ai vantaggi del riso integrale quelli del parboiling sulla riduzione della risposta glicemica. Anche il riso Flora integrale è un parboiled, con circa  18  minuti stimati di cottura.",
+        "alternatives": [
+          {
+            "id": "jwq7b21oh",
+            "name": "Lupini Deamarizzati",
+            "quantityFromName": "7 cucchiai",
+            "ingredients": [
+              {
+                "name": "Lupini Deamarizzati",
+                "quantity": "210 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "itxtcv17k",
+            "name": "Norvegesi - gallette con farro, lino e semi zucca",
+            "quantityFromName": "2 unità",
+            "ingredients": [
+              {
+                "name": "Norvegesi - gallette con farro, lino e semi zucca",
+                "quantity": "48 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "xfrjcui75",
+            "name": "Piselli in padella con soffritto leggero",
+            "quantityFromName": "7 cucchiai da minestra",
+            "ingredients": [
+              {
+                "name": "Piselli",
+                "quantity": "150,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "4,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "25,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Brodo Vegetale",
+                "quantity": "30,00 g"
+              }
+            ],
+            "notes": "Per i piselli si suggerisce di usare quelli congelati (o freschi) e non in scatola."
+          }
+        ]
+      },
+      {
+        "id": "q2k5hdyu7",
+        "name": "Ratatouille - verdure a cubetti in padella - ex melanzane, peperoni, zucchine e pomodori",
+        "quantityFromName": "1 pugno schiacciato  e  mezzo",
+        "ingredients": [
+          {
+            "name": "Zucchine",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Peperoni Dolci",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Melanzane",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Cipolle",
+            "quantity": "70,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "10,00 g"
+          },
+          {
+            "name": "Olive Nere",
+            "quantity": "25,00 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          },
+          {
+            "name": "Erbe Aromatiche (FOGLIE)",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Pulite e tagliate tutte le verdure a pezzi piuttosto grossi (circa 2 x 2 cm), ponetele in una padella, aggiungete sale, pepe e le erbe aromatiche, se gradite aggiungete olive nere, l’olio suggerito per porzione, mescolatele bene in modo da amalgamare il condimento. Le melanzane, prima di essere utilizzate per la cottura, richiedono un’attenzione particolare, sarebbe consigliabile riporle in una terrina alternando uno strato di melanzane ad uno strato di sale grosso, lasciate riposare per circa un’ora, sciacquate con cura per eliminare tutto il sale. Se il tempo è tiranno potete pulire e tagliare le melanzane per prima e lasciarle riposare nel sale fino a quando si finiscono di preparare le altre verdure, oppure preparare li mix di verdure senza melanzane.Cuocete a fuoco vivace per circa 30 minuti, fino a quando le verdure avranno perso quasi tutto il loro liquido e si saranno rosolate uniformemente. Se durante la cottura il liquido rilasciato dalle verdure non fosse sufficiente aggiungere un poco di acqua calda.Questo piatto può essere consumato caldo o freddo, potete quindi prepararne più porzioni e consumarle nei giorni seguenti, oppure surgelarle",
+        "alternatives": [
+          {
+            "id": "kcxzio3kn",
+            "name": "Cornetti o fagiolini lessati e conditi",
+            "quantityFromName": "3 pugni  e  ½",
+            "ingredients": [
+              {
+                "name": "Cornetti o fagiolini",
+                "quantity": "550,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,60 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "k5sgrb8ne",
+            "name": "Peperonata",
+            "quantityFromName": "2 pugni schiacciati  e  ¼",
+            "ingredients": [
+              {
+                "name": "Peperoni Dolci",
+                "quantity": "420,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "100,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "12,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,50 g"
+              },
+              {
+                "name": "Erbe Aromatiche (FOGLIE)",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "io47og5w4",
+            "name": "Pinzimonio (ex caropte, pomodorini, peperoni, rapanelli, cipollotto)",
+            "quantityFromName": "2 pugni",
+            "ingredients": [
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Carote",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Cetrioli",
+                "quantity": "70,00 g"
+              },
+              {
+                "name": "Finocchio",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Peperoni Dolci",
+                "quantity": "70,00 g"
+              },
+              {
+                "name": "Cipollotto rosso",
+                "quantity": "50,00 g"
+              },
+              {
+                "name": "Ravanelli",
+                "quantity": "50,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "14,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,80 g"
+              },
+              {
+                "name": "Aceto",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": "Il pinzimonio è un simbolo della dieta mediterranea, è un modo informale di consumare verdura, pratico in quanto non necessita di lunga preparazione. Gli ortaggi sono un gruppo vario di vegetali, ricchi di diverse vitamine e minerali, in base anche ai loro differenti colori. Risultano utili nei meccanismi di stimolazione della sazietà in quanto vanno masticati e sgranocchiati con una certa vivacità, e questo fa sì che si generino segnali utili alla sensazione di sazietà. Tra gli ortaggi che possono essere utilizzati si ricordano, ad esempio, carote, finocchi, sedano, peperoni, pomodori ciliegini, rapanelli, fusi di insalata belga, cipollotti piccoli e “giovani”."
+          },
+          {
+            "id": "nvohqut1i",
+            "name": "Zucchine trifolate",
+            "quantityFromName": "2 pugni schiacciati  e  ¾",
+            "ingredients": [
+              {
+                "name": "Zucchine",
+                "quantity": "490,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "12,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "17,00 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "12,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,70 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "gnsfefou7",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  },
+  "Mercoledì": {
+    "Colazione": [
+      {
+        "id": "yimw12bcg",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazza",
+        "ingredients": [
+          {
+            "name": "Te', In Tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "e0n812ae1",
+            "name": "Caffè",
+            "quantityFromName": "1 tazzina",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "v3gdzyjsk",
+        "name": "Yogurt Di Latte Intero",
+        "quantityFromName": "1 vasetto da 125 ml",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Intero",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "1t0lkqint",
+        "name": "Biscotti ColCuore Frollino Integrale Galbusera con beta-glucani",
+        "quantityFromName": "5 unità",
+        "ingredients": [
+          {
+            "name": "Biscotti ColCuore Frollino Integrale Galbusera con beta-glucani",
+            "quantity": "31,5 g"
+          }
+        ],
+        "notes": "Biscotto con Beta Glucani, particolari fibre che aiutano a ridurre il colesterolo.",
+        "alternatives": [
+          {
+            "id": "n6u5eaonl",
+            "name": "Biscotti \"Cereal\" alla Crusca di Avena",
+            "quantityFromName": "5 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti \"Cereal\" alla Crusca di Avena",
+                "quantity": "30 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "hb6twd8jt",
+            "name": "Biscotti BuonPerTutti Galbusera",
+            "quantityFromName": "3 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti BuonPerTutti Galbusera",
+                "quantity": "16,2 g"
+              }
+            ],
+            "notes": "Biscotti con farina di legumi, grazie al contenuto di proteine vegetali e fibre, risultano nutrienti e sazianti. La loro consistenza necessita di una masticazione prolungata, utile a regolare il comportamento alimentare. Un biscotto che, per le sue caratteristiche nutrizionali, risulta utile nella quotidiana colazione tipicamente italiana."
+          },
+          {
+            "id": "l7h69486b",
+            "name": "Biscotti PiùIntegrali Galbusera",
+            "quantityFromName": "4 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti PiùIntegrali Galbusera",
+                "quantity": "27,6 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "qlg0l5et6",
+            "name": "Frollini con fiocchi di orzo e farina d'avena - BeneSì Coop",
+            "quantityFromName": "4 unità",
+            "ingredients": [
+              {
+                "name": "Frollini con fiocchi di orzo e farina d'avena - BeneSì Coop",
+                "quantity": "32 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "c8u2a14i0",
+            "name": "Germinal, Bio biscotti integrali avena",
+            "quantityFromName": "5 unità",
+            "ingredients": [
+              {
+                "name": "Germinal, Bio biscotti integrali avena",
+                "quantity": "35,5 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "s4jhoqjea",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "1ztqpc1im",
+        "name": "Radicchio verde tagliato fine e condito",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Radicchio Verde",
+            "quantity": "70,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "dyq169gma",
+            "name": "Verdura cruda in foglia, condita",
+            "quantityFromName": "2 pugni",
+            "ingredients": [
+              {
+                "name": "Verdura cruda in foglia",
+                "quantity": "60,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Aceto",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "6,00 g"
+              }
+            ],
+            "notes": "Per verdura in foglia si intendono varietà come la comune lattuga, romana, scarola ma anche il radicchio sia rosso che verde, l’insalata riccia, i grasselli o valeriane e la misticanza. Esse sono particolarmente ricche di acido folico, una vitamina che prende il nome proprio dalla parola “foglia”, talmente utile alla nostra salute da esserne suggerita l’integrazione prima del concepimento per prevenire le serie problematiche dovute ad una carenza. Ma la salute è importante non solo in questi periodi particolari, è dunque suggeribile un consumo frequente di verdura in foglia, in porzioni anche maggiori di quella indicata che è la porzione minima: abbondare con la verdura è possibile, a partita di condimento suggerito.Il consumo regolare di verdura è uno dei cardini di un’alimentazione sana, alla luce anche del ruolo fondamentale che essa ha per la salute del nostro microbiota, consumarne meno di quanto indicato sia in termini di porzione che di frequenza di consumo compromette l’efficacia ed il bilanciamento nutrizionale della dieta."
+          }
+        ]
+      },
+      {
+        "id": "4uege0pob",
+        "name": "Ortaggi misti ( calcoli per medie db)",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Cetrioli",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Finocchio",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Peperoni Dolci",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Ravanelli",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Sedano",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Zucchine",
+            "quantity": "30,00 g"
+          }
+        ],
+        "notes": "Pomodori, pomodorini, peperoni, finocchi, sedano, carote, rapanelli, zucchine ed altri ortaggi sono un gruppo vario di vegetali, ricchi di diverse vitamine e minerali la cui presenza è segnalata anche dai loro differenti colori. Risultano utili nei meccanismi di stimolazione della sazietà in quanto vanno masticati e sgranocchiati con una certa vivacità, e questo fa sì che si generino segnali utili alla sensazione di sazietà. Possono essere consumati in pinzimonio, oppure essere comodi per i pasti in ufficio o fuori casa, vengono anche chiamati 'Finger Vegetables', ovvero ortaggi che possono essere piluccati semplicemente con le dita. Averne qualche porzione sempre pronta in frigorifero può essere utile anche come snack, per incrementare il consumo di verdura proprio quando si avverte un languore.",
+        "alternatives": []
+      },
+      {
+        "id": "uz99iy52g",
+        "name": "Fagioli (cannellini, bianchi o borlotti) lessati",
+        "quantityFromName": "6 cucchiai",
+        "ingredients": [
+          {
+            "name": "Fagioli (cannellini, bianchi o borlotti) lessati",
+            "quantity": "180 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "puw4yx604",
+            "name": "Ceci lessati",
+            "quantityFromName": "9 cucchiai",
+            "ingredients": [
+              {
+                "name": "Ceci lessati",
+                "quantity": "160 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "lhc4zyunv",
+        "name": "Tonno Sott'olio, Sgocciolato",
+        "quantityFromName": "1 scatoletta da 80 g",
+        "ingredients": [
+          {
+            "name": "Tonno Sott'olio, Sgocciolato",
+            "quantity": "80 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "cqzv0pbp4",
+            "name": "Straccetti di soia grigliati, Garden Gourmet.",
+            "quantityFromName": "½ confezione",
+            "ingredients": [
+              {
+                "name": "Straccetti di soia grigliati, Garden Gourmet.",
+                "quantity": "87,5 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "gwp83mgfe",
+            "name": "Tonno filetti olio d'oliva ( solitamente in vasetto di vetro)",
+            "quantityFromName": "70 g",
+            "ingredients": [
+              {
+                "name": "Tonno filetti olio d'oliva ( solitamente in vasetto di vetro)",
+                "quantity": "70 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "tn683rqkc",
+            "name": "filetti di sgombro grigliato al naturale Delicious",
+            "quantityFromName": "1 Scatoletta da 110 g  e  ½",
+            "ingredients": [
+              {
+                "name": "filetti di sgombro grigliato al naturale Delicious",
+                "quantity": "112,5 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "fto3h0eiz",
+        "name": "Crackers Galbusera BuonPerTutti in sacchetto con farina di legumi",
+        "quantityFromName": "7 unità",
+        "ingredients": [
+          {
+            "name": "Crackers Galbusera BuonPerTutti in sacchetto con farina di legumi",
+            "quantity": "31,5 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "msd3y6xtd",
+            "name": "Crackers Spighe Integrali Mulino Bianco",
+            "quantityFromName": "10 sfoglie",
+            "ingredients": [
+              {
+                "name": "Crackers Spighe Integrali Mulino Bianco",
+                "quantity": "32 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "jh5br9kee",
+            "name": "Crakers Piacersi Conad con riso soffiato integrale ( e Beta-glucani)",
+            "quantityFromName": "1 confezione monodose",
+            "ingredients": [
+              {
+                "name": "Crakers Piacersi Conad con riso soffiato integrale ( e Beta-glucani)",
+                "quantity": "30 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "y1p1szcxg",
+            "name": "Crostino Buitoni con farina integrale",
+            "quantityFromName": "7 unità",
+            "ingredients": [
+              {
+                "name": "Crostino Buitoni con farina integrale",
+                "quantity": "39,2 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "m4l4der3u",
+            "name": "Wasa original",
+            "quantityFromName": "4 fette",
+            "ingredients": [
+              {
+                "name": "Wasa original",
+                "quantity": "41,2 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra pranzo e cena": [
+      {
+        "id": "eywyco7ap",
+        "name": "Noci, Secche",
+        "quantityFromName": "10 gherigli",
+        "ingredients": [
+          {
+            "name": "Noci, Secche",
+            "quantity": "20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "lg26fhb45",
+            "name": "Mandorle Dolci, Secche",
+            "quantityFromName": "15 unità",
+            "ingredients": [
+              {
+                "name": "Mandorle Dolci, Secche",
+                "quantity": "0 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "e5jbx725m",
+            "name": "Nocciole, Secche",
+            "quantityFromName": "15 unità",
+            "ingredients": [
+              {
+                "name": "Nocciole, Secche",
+                "quantity": "19,5 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Cena": [
+      {
+        "id": "93awz4hb7",
+        "name": "Minestrone di verdure con un poco di legumi, ed orzo",
+        "quantityFromName": "1 fondina (250 ml)",
+        "ingredients": [
+          {
+            "name": "Cipolle",
+            "quantity": "20,00 g"
+          },
+          {
+            "name": "Orzo, Perlato",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Piselli",
+            "quantity": "20,00 g"
+          },
+          {
+            "name": "Aglio, Fresco",
+            "quantity": "2,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Prezzemolo, Fresco",
+            "quantity": "2,00 g"
+          },
+          {
+            "name": "Sedano",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Brodo Vegetale",
+            "quantity": "50,00 g"
+          },
+          {
+            "name": "Verza",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Fagioli lessati",
+            "quantity": "20,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "5,00 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Parmigiano",
+            "quantity": "5,00 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "4l2vpenhh",
+            "name": "Passato di verdure con un poco di legumi e patate",
+            "quantityFromName": "1 fondina (250 ml)",
+            "ingredients": [
+              {
+                "name": "Brodo Di Carne E Verdura",
+                "quantity": "100,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Piselli",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "2,00 g"
+              },
+              {
+                "name": "Carote",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "2,00 g"
+              },
+              {
+                "name": "Sedano",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Patate",
+                "quantity": "50,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Verza",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Fagioli lessati",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Parmigiano",
+                "quantity": "5,00 g"
+              }
+            ],
+            "notes": "Ok anche passati di verdura pronti (a titolo d'esempio Orogel o Findus, oppure a marchio del supermercato o \"private label\" quali Esselunga, Conad, Coop, Iper...) disponibili sia in scodelle banco frigo sia surgelati in busta. Vanno bene sia passati di verdure miste, sia vellutate mono-gusto (es. crema di carote), con una percentuale di patate non superiore al 20%. A tal proposito, gli ingredienti sono indicati in etichetta in ordine decrescente a seconda della quantità presente nel prodotto (ovvero, il primo ingrediente della lista è presente in maggior quantità), se la percentuale di patate non è indicata, si consiglia di selezionare prodotti che abbiano patate almeno come terzo ingrediente."
+          }
+        ]
+      },
+      {
+        "id": "gx5nuap8d",
+        "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+        "quantityFromName": "2 cucchiai",
+        "ingredients": [
+          {
+            "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+            "quantity": "20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "f0904zbxe",
+        "name": "Pane a fette Integrale",
+        "quantityFromName": "1 mano",
+        "ingredients": [
+          {
+            "name": "Pane a fette Integrale",
+            "quantity": "50 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "o0fp44hj0",
+            "name": "Wasa original",
+            "quantityFromName": "4 fette",
+            "ingredients": [
+              {
+                "name": "Wasa original",
+                "quantity": "41,2 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "q0k2vxwjc",
+        "name": "uova al tegamino, strapazzate, come frittata, preparate con uova",
+        "quantityFromName": "2 unità",
+        "ingredients": [
+          {
+            "name": "Uovo Di Gallina, Intero",
+            "quantity": "105,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "mtg8h51cm",
+            "name": "Uova con omega3 Aequilibrium AIA",
+            "quantityFromName": "2 unità",
+            "ingredients": [
+              {
+                "name": "Uova con omega3 Aequilibrium AIA",
+                "quantity": "100 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "b1doq7nj4",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  },
+  "Giovedì": {
+    "Colazione": [
+      {
+        "id": "o0rewgslx",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazza",
+        "ingredients": [
+          {
+            "name": "Te', In Tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "mpdynj2hv",
+            "name": "Caffè",
+            "quantityFromName": "1 tazzina",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "v4tzpywji",
+        "name": "Latte parzialmente scremato",
+        "quantityFromName": "1 tazza da 200 ml",
+        "ingredients": [
+          {
+            "name": "Latte parzialmente scremato",
+            "quantity": "200 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "hrvd4bd3u",
+            "name": "Latte Di Soia",
+            "quantityFromName": "1 tazza da 250 ml",
+            "ingredients": [
+              {
+                "name": "Latte Di Soia",
+                "quantity": "250 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "s9hqkys2r",
+        "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+        "quantityFromName": "2 cucchiai",
+        "ingredients": [
+          {
+            "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+            "quantity": "20 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "qf03bfvkc",
+            "name": "Crusca di avena",
+            "quantityFromName": "3 cucchiai da minestra",
+            "ingredients": [
+              {
+                "name": "Crusca di avena",
+                "quantity": "18 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "7tce3oues",
+            "name": "Fiocchi Di Avena",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Fiocchi Di Avena",
+                "quantity": "20 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "gqrqa6i6v",
+        "name": "Sarchio Muesli Active con mandorle, nocciole con beta-glucani",
+        "quantityFromName": "3 cucchiai",
+        "ingredients": [
+          {
+            "name": "Sarchio Muesli Active con mandorle, nocciole con beta-glucani",
+            "quantity": "25,5 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "uc0gcdsls",
+            "name": "Kellogg's Nice Morning, benessere integrale, ricchi di fibre",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Kellogg's Nice Morning, benessere integrale, ricchi di fibre",
+                "quantity": "16,5 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "6p8xcmizo",
+            "name": "Muesli BeneSì Coop con fiocchi avena, semi lino e zucca con beta-glucani",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Muesli BeneSì Coop con fiocchi avena, semi lino e zucca con beta-glucani",
+                "quantity": "24 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "1mnyqrnt9",
+            "name": "Muesli di avena con frutta (con betaglucani) - Nattura",
+            "quantityFromName": "3 cucchiai",
+            "ingredients": [
+              {
+                "name": "Muesli di avena con frutta (con betaglucani) - Nattura",
+                "quantity": "24 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "kjjd59252",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "b2qnf1ycv",
+        "name": "Insalata di lenticchie, piselli e carote",
+        "quantityFromName": "12 cucchiai",
+        "ingredients": [
+          {
+            "name": "Lenticchie lessate",
+            "quantity": "85,00 g"
+          },
+          {
+            "name": "Piselli lessati",
+            "quantity": "85,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "100,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "5,00 g"
+          }
+        ],
+        "notes": "per velocizzre la preparazione possono essere usate anche lenticchie in scatola, mentre per i piselli , oltre a quelli freschi, è preferibile usare il prodotto congelato in quanto mantiene meglio le proprietà organolettiche rispetto a quello in scatola. Possono essere cotti al vapore insieme piselli e carote, ed aggiunte spezie a piacere (ex alloro).Può essere consumata tiepida o fredda.",
+        "alternatives": [
+          {
+            "id": "o8jei3s4o",
+            "name": "Ceci con spinaci, cicoria o erbette",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Ceci lessati",
+                "quantity": "180,00 g"
+              },
+              {
+                "name": "Cicoria",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "bro7mrv68",
+            "name": "Fave con sedano, extravergine e menta",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Fave (anche surgelate o in scatola)",
+                "quantity": "180,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sedano",
+                "quantity": "90,00 g"
+              }
+            ],
+            "notes": "possono essere usate le fave fresche, ma anche quello surgelate, oppure pronte in scatola ma ben sciacquate, a cui si aggiunge semplicemente olio extravergine e pepe, oppure menta."
+          },
+          {
+            "id": "nme7449xu",
+            "name": "Insalata fredda di ceci o lenticchie con peperonata o ratatouille",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Peperonata",
+                "quantity": "100,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "3,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Ceci lessati",
+                "quantity": "160,00 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "ihhxo5bu3",
+            "name": "Legumi con olio extravergine (fagioli, ceci, lenticchie o fave)",
+            "quantityFromName": "12 cucchiai",
+            "ingredients": [
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "10,00 g"
+              },
+              {
+                "name": "Legumi (fagioli, ceci, lenticchie, piselli o fave)",
+                "quantity": "230,00 g"
+              }
+            ],
+            "notes": "Nell'ambito della dieta mediterranea è suggerito un  consumo frequente di legumi, non solo come contorno ma anche come portata principale. Per vari motivi sono state dimenticate ricette che potevano variarne un poco il sapore far sì che il loro consumo sistematico non diventi noioso. Alcuni abbinamenti proposti hanno lo scopo di provare anche ricette differenti con lo scopo di incoraggiarne il consumo. Sicuramente i legumi che si preparano a partire da quelli secchi, surgelati o addirittura freschi sono preferibili, anche da un punto di vista organolettico, tuttavia i legumi in scatola rappresentano una comoda alternativa, a patto che siano di buona qualità, consumati lontano dalla data di scadenza (tendono ad assorbire con il tempo la salamoia), e sciacquati con un colino, setaccio o scolapasta sotto abbondante acqua corrente."
+          },
+          {
+            "id": "fyymi5ttc",
+            "name": "Lenticchie in umido con sugo al pomodoro",
+            "quantityFromName": "12 cucchiai da minestra",
+            "ingredients": [
+              {
+                "name": "Lenticchie, Secche",
+                "quantity": "55,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "6,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "20,00 g"
+              },
+              {
+                "name": "Passata di pomodoro",
+                "quantity": "75,00 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "3,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Peperoncini Piccanti",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": "Per preparare legumi in umido (lenticchie, ceci, fagioli o fave o preparati misti) può seguire uno schema simile: 500 gr di legumi secchi + 1,5 lt di acqua + una lattina di passata pomodoro + 2 cipolle medie + verdura mista a cubetti (carote-peperoni verdi, cavolo, zucchine o altro) da aggiungere nell’ultima fase della cottura in base ai tempi di cottura delle singole verdure . Al termine della preparazione a crudo aggiungerà l’olio. Utilizzando la pentola a pressione può diminuire i tempi di cottura."
+          }
+        ]
+      },
+      {
+        "id": "3w1d2v60v",
+        "name": "Verdura cruda in foglia, condita",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "6,00 g"
+          },
+          {
+            "name": "Verdura cruda in foglia",
+            "quantity": "60,00 g"
+          }
+        ],
+        "notes": "Per verdura in foglia si intendono varietà come la comune lattuga, romana, scarola ma anche il radicchio sia rosso che verde, l’insalata riccia, i grasselli o valeriane e la misticanza. Esse sono particolarmente ricche di acido folico, una vitamina che prende il nome proprio dalla parola “foglia”, talmente utile alla nostra salute da esserne suggerita l’integrazione prima del concepimento per prevenire le serie problematiche dovute ad una carenza. Ma la salute è importante non solo in questi periodi particolari, è dunque suggeribile un consumo frequente di verdura in foglia, in porzioni anche maggiori di quella indicata che è la porzione minima: abbondare con la verdura è possibile, a partita di condimento suggerito.Il consumo regolare di verdura è uno dei cardini di un’alimentazione sana, alla luce anche del ruolo fondamentale che essa ha per la salute del nostro microbiota, consumarne meno di quanto indicato sia in termini di porzione che di frequenza di consumo compromette l’efficacia ed il bilanciamento nutrizionale della dieta.",
+        "alternatives": []
+      },
+      {
+        "id": "ne3voxkk9",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      },
+      {
+        "id": "3vhgf3408",
+        "name": "Pane Integrale",
+        "quantityFromName": "1 mano alta 2 dita",
+        "ingredients": [
+          {
+            "name": "Pane Integrale",
+            "quantity": "60 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      }
+    ],
+    "Tra pranzo e cena": [
+      {
+        "id": "2r5f9mptb",
+        "name": "Yogurt Di Latte Parzialmente Scremato",
+        "quantityFromName": "1 vasetto da 125 g",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Parzialmente Scremato",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "70oy0hq1x",
+        "name": "Miele",
+        "quantityFromName": "1 cucchiaino",
+        "ingredients": [
+          {
+            "name": "Miele",
+            "quantity": "5 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "be84j1b3i",
+        "name": "Fiocchi Di Avena",
+        "quantityFromName": "2 cucchiai",
+        "ingredients": [
+          {
+            "name": "Fiocchi Di Avena",
+            "quantity": "10 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "bkfhqwxnc",
+            "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+            "quantityFromName": "2 cucchiaini",
+            "ingredients": [
+              {
+                "name": "Lecinova Fibre (con beta-glucani) in barattolo",
+                "quantity": "10 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Cena": [
+      {
+        "id": "cix3fy9r7",
+        "name": "Petto di pollo (o tacchino) ai ferri",
+        "quantityFromName": "1 mano",
+        "ingredients": [
+          {
+            "name": "Pollo, Petto, Senza Pelle",
+            "quantity": "165,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "8,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Erbe Aromatiche (FOGLIE)",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "wosjotm8v",
+            "name": "Bistecca di manzo ai ferri",
+            "quantityFromName": "1 mano",
+            "ingredients": [
+              {
+                "name": "Manzo, tagli di carne magra",
+                "quantity": "160,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "6,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Erbe Aromatiche (FOGLIE)",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "d1mngezq6",
+            "name": "Coscia di pollo al forno o in padella (senza pelle)",
+            "quantityFromName": "3 unità",
+            "ingredients": [
+              {
+                "name": "Pollo, Fuso (COSCIA), Senza Pelle",
+                "quantity": "240,00 g"
+              },
+              {
+                "name": "Erbe Aromatiche (FOGLIE)",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              }
+            ],
+            "notes": "Il peso di un fuso medio è 120, tuttavia essendo le analisi effettuate sulla parte edibile essa risulta essere di 80 g circa."
+          }
+        ]
+      },
+      {
+        "id": "suhpos15u",
+        "name": "Verdura cruda in foglia, condita con olio di mais vitaminizzato",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,20 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Verdura cruda in foglia",
+            "quantity": "60,00 g"
+          },
+          {
+            "name": "Olio Di Mais Vitaminizzato",
+            "quantity": "6,00 g"
+          }
+        ],
+        "notes": "Per verdura in foglia si intendono varietà come la comune lattuga, romana, scarola ma anche il radicchio sia rosso che verde, l’insalata riccia, i grasselli o valeriane e la misticanza. Esse sono particolarmente ricche di acido folico, una vitamina che prende il nome proprio dalla parola “foglia”, talmente utile alla nostra salute da esserne suggerita l’integrazione prima del concepimento per prevenire le serie problematiche dovute ad una carenza. Ma la salute è importante non solo in questi periodi particolari, è dunque suggeribile un consumo frequente di verdura in foglia, in porzioni anche maggiori di quella indicata che è la porzione minima: abbondare con la verdura è possibile, a partita di condimento suggerito.Il consumo regolare di verdura è uno dei cardini di un’alimentazione sana, alla luce anche del ruolo fondamentale che essa ha per la salute del nostro microbiota, consumarne meno di quanto indicato sia in termini di porzione che di frequenza di consumo compromette l’efficacia ed il bilanciamento nutrizionale della dieta.",
+        "alternatives": []
+      },
+      {
+        "id": "6c6hoo3o5",
+        "name": "Crakers Piacersi Conad con riso soffiato integrale ( e Beta-glucani)",
+        "quantityFromName": "1 confezione monodose",
+        "ingredients": [
+          {
+            "name": "Crakers Piacersi Conad con riso soffiato integrale ( e Beta-glucani)",
+            "quantity": "30 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "sf74gxl8y",
+            "name": "Crackers Buonpertutti Galbusera",
+            "quantityFromName": "5 sfoglie",
+            "ingredients": [
+              {
+                "name": "Crackers Buonpertutti Galbusera",
+                "quantity": "33,5 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "j28hrko0k",
+            "name": "Norvegesi - gallette con farro, lino e semi zucca",
+            "quantityFromName": "2 unità",
+            "ingredients": [
+              {
+                "name": "Norvegesi - gallette con farro, lino e semi zucca",
+                "quantity": "48 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "3b6ha1tqy",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  },
+  "Venerdì": {
+    "Colazione": [
+      {
+        "id": "eela15a02",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazzina",
+        "ingredients": [
+          {
+            "name": "Te', In Tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "hez09rmul",
+            "name": "Caffè",
+            "quantityFromName": "1 tazza",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "8x0z2xo1u",
+        "name": "Yogurt Di Latte Intero",
+        "quantityFromName": "1 vasetto da 125 ml",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Intero",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "d68ofiwwi",
+        "name": "Biscotti ColCuore Frollino Integrale Galbusera con beta-glucani",
+        "quantityFromName": "5 unità",
+        "ingredients": [
+          {
+            "name": "Biscotti ColCuore Frollino Integrale Galbusera con beta-glucani",
+            "quantity": "31,5 g"
+          }
+        ],
+        "notes": "Biscotto con Beta Glucani, particolari fibre che aiutano a ridurre il colesterolo.",
+        "alternatives": [
+          {
+            "id": "2wj233j3z",
+            "name": "Biscotti \"Cereal\" alla Crusca di Avena",
+            "quantityFromName": "5 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti \"Cereal\" alla Crusca di Avena",
+                "quantity": "30 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "7ls5hsjux",
+            "name": "Biscotti BuonPerTutti Galbusera",
+            "quantityFromName": "3 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti BuonPerTutti Galbusera",
+                "quantity": "16,2 g"
+              }
+            ],
+            "notes": "Biscotti con farina di legumi, grazie al contenuto di proteine vegetali e fibre, risultano nutrienti e sazianti. La loro consistenza necessita di una masticazione prolungata, utile a regolare il comportamento alimentare. Un biscotto che, per le sue caratteristiche nutrizionali, risulta utile nella quotidiana colazione tipicamente italiana."
+          },
+          {
+            "id": "krgwqhwfm",
+            "name": "Biscotti PiùIntegrali Galbusera",
+            "quantityFromName": "4 unità",
+            "ingredients": [
+              {
+                "name": "Biscotti PiùIntegrali Galbusera",
+                "quantity": "27,6 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "sw9o9ssga",
+            "name": "Frollini con fiocchi di orzo e farina d'avena - BeneSì Coop",
+            "quantityFromName": "4 unità",
+            "ingredients": [
+              {
+                "name": "Frollini con fiocchi di orzo e farina d'avena - BeneSì Coop",
+                "quantity": "32 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "68tqq2u0l",
+            "name": "Germinal, Bio biscotti integrali avena",
+            "quantityFromName": "5 unità",
+            "ingredients": [
+              {
+                "name": "Germinal, Bio biscotti integrali avena",
+                "quantity": "35,5 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "48ajer6rx",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "8u32kb8eo",
+        "name": "Insalata di cereali misti con dadini di verdure",
+        "quantityFromName": "1 pugno schiacciato  e  ¾",
+        "ingredients": [
+          {
+            "name": "Orzo",
+            "quantity": "45,00 g"
+          },
+          {
+            "name": "Riso",
+            "quantity": "35,00 g"
+          },
+          {
+            "name": "Farro",
+            "quantity": "42,70 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "9,00 g"
+          },
+          {
+            "name": "Zucchine",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Carote",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Cetrioli",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "40,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          }
+        ],
+        "notes": "In commercio si trovano mix di vari cereali pronti da cuocere, spesso con tempi di cottura brevi (circa 10-12 minuti). Si segnalano, tra gli altri, i \"3 cereali Extra (Riso Integrale, Avena e Grano Senatore Cappelli)\" di Riso Gallo, i \"Mix di 5 cereali\" di Barilla e di Colfiorito, i 5 cereali \"C'è di buono in Italia\" di Pedon. Questi prodotti non sono da confondere con i sacchetti misti di cereali e legumi (per legumi s'intendono ceci, fagioli, lenticchie, piselli), che sono validi nella maggior parte dei casi, ma non sono equivalenti ai mix di soli cereali e pertanto si inseriscono in un contesto differente.   Il mix di cereali può essere poi consumato freddo nel caso di piatti più estivi, oppure caldo-tiepido nella stagione invernale. Si consiglia l'inserimento di verdure a piacere per rendere il piatto più ricco di fibre e abbassarne la densità energetica. Cuocendo le verdure insieme ai cereali (ad esempio, broccoli crudi inseriti nell'acqua in cui stanno cuocendo i cereali circa 2 minuti prima del termine della cottura) è possibile incorporare una significativa quantità di verdure nel primo piatto senza aumentare la quota di olio, che potrà essere aggiunto a parte. E' possibile inoltre aggiungere spezie a piacere, quali pepe o peperoncino, ed anche 1 cucchiaino di parmigiano grattuggiato. Non è possibile però aggiungere mozzarella a cubetti in quanto ne incrementerebbe la densità energetica. Il volume del cereale con verdure espresso in pugni, mestoli o cup risulta maggiore rispetto ad altre ricette: a parità di grammi di cereali, le verdure ne incrementeranno il volume.",
+        "alternatives": [
+          {
+            "id": "vh6l06be0",
+            "name": "Insalata di farro con verdure a cubetti saltate o grigliate",
+            "quantityFromName": "1 pugno schiacciato  e  ¾",
+            "ingredients": [
+              {
+                "name": "Farro",
+                "quantity": "111,80 g"
+              },
+              {
+                "name": "Melanzane",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Zucchine",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Pomodori Da Insalata",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Peperoni Dolci",
+                "quantity": "30,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "10,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Basilico, Fresco",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "ieojje8fp",
+            "name": "Pedon \"I salvaminuti\" con moderata aggiunta di olio a crudo",
+            "quantityFromName": "1 pugno schiacciato  e  ¼",
+            "ingredients": [
+              {
+                "name": "Pedon 5 cereali \"I salvaminuti\"",
+                "quantity": "115,60 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "8,00 g"
+              }
+            ],
+            "notes": "Vi sono diverse tipologie di miscele di cereali con o senza legumi che Pedon ha assortito, comode perché bollono in soli 10 min in quanto hanno uniformato i tempi di cottura di vari legumi e cereali, altrimenti sarebbero stati differenti e più lunghi e complicati da preparare. Si trovano varie associazioni e molte sono interessanti, possono essere consumate con olio extravergine, oppure con verdure a cubetti ed erbe aromatiche, verdure che possono essere aggiunte negli ultimi minuti di cottura per essere \"scottate\", ad esempio gli spinaci possono essere aggiunti anche congelati se vi è una quantità sufficiente di acqua da non fermare l'ebollizione."
+          },
+          {
+            "id": "iotbn4f74",
+            "name": "Riso venere integrale bollito con extravergine a crudo",
+            "quantityFromName": "1 pugno schiacciato  e  ½",
+            "ingredients": [
+              {
+                "name": "Riso Integrale, Crudo",
+                "quantity": "130,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "9,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              }
+            ],
+            "notes": "Il riso integrale ha tempi di cottura lunghi, segnalo la versione Di Riso Scotti pronta in 10  minuti e RisoGallo Blond integrale che cuoce in 14 minuti e aggiunge ai vantaggi del riso integrale quelli del parboiling sulla riduzione della risposta glicemica. Anche il riso Flora integrale è un parboiled, con 18  minuti stimati di cottura."
+          }
+        ]
+      },
+      {
+        "id": "9sgbue4rw",
+        "name": "Insalata di radicchio verde, rapanelli, cipollotto, semi di zucca e lino",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Radicchio Verde",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Ravanelli",
+            "quantity": "70,00 g"
+          },
+          {
+            "name": "Cipolle",
+            "quantity": "25,00 g"
+          },
+          {
+            "name": "Semi di Zucca",
+            "quantity": "6,00 g"
+          },
+          {
+            "name": "Lino, Semi",
+            "quantity": "5,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "12,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Lavare e strizzare il radicchio verde, tagliarlo a striscioline sottili utilizzando un coltello ben affilato oppure un’affettatrice, lavare e tagliare a fettine o a julienne i rapanelli, lavare e tagliare a fettine molto sottili il cipollotto. Unire tutte le verdure in una zuppiera, aggiungere i semi di zucca tostati e i semi di lino e, se disponibili, i lampascioni sott’olio. Condire la verdura con olio extravergine, aceto o succo di limone, sale con moderazione e pepe a piacere, se possibile lasciare riposare per 5-10 minuti in modo che l’acidità del limone renda “cuocia” un poco le verdure.",
+        "alternatives": [
+          {
+            "id": "6cq1bde5d",
+            "name": "Insalata mista con pomodori e carote, condita",
+            "quantityFromName": "3 pugni",
+            "ingredients": [
+              {
+                "name": "Radicchio Rosso",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Lattuga",
+                "quantity": "40,00 g"
+              },
+              {
+                "name": "Carote",
+                "quantity": "70,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "140,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,70 g"
+              },
+              {
+                "name": "Aceto",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "12,00 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Cena": [
+      {
+        "id": "xnclrrcu0",
+        "name": "Secondo piatto a base di pesce, cucinato con ricette semplici",
+        "quantityFromName": "1 mano",
+        "ingredients": [
+          {
+            "name": "Pesce intero, in filetti o tranci",
+            "quantity": "150,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Erbe Aromatiche (FOGLIE)",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Il pesce può essere sostanzialmente di qualsiasi tipo, escluderei solamente pesci quali  aringhe, anguilla, pesce gatto e tinca, può essere fresco oppure surgelato Se si usa il pesce congelato è preferibile scongelarlo mettendolo la sera prima in frigorifero oppure con il microonde, questo aiuta a mantenere una buona consistenza.Le più comuni ricette vanno bene, è possibile cuocerlo al forno (anche a microonde), alla griglia, al vapore, si dovrà solo porre un poco di attenzione e non esagerare con l’olio, nonchè ricordarsi che il controllo della porzione è importante anche con il pesce.E‘ interessante la cottura al vapore perché mantiene una buona consistenza e sapore. E‘ sufficiente adagiare i filetti su di un cestello inox per cottura al vapore, strumento economico che si adatta a pentole di vario diametro, lo inseriremo in una pentola sempre inox, poche dita di acqua saranno sufficienti in quanto non devono raggiungere il cestello. È possibile usare anche lo scolapasta inox presente in alcune pentole per la cottura della pasta. Chiudete la pentola con il coperchio, la cottura del pesce dipende molto dallo spessore dei filetti, solitamente è attorno ai 10 min, e con una semplice ispezione visiva si capisce a che punto è la cottura. Aggiungere poi un pizzico di sale e olio a crudo sul proprio piatto, eventualmente prezzemolo tritato.La cottura in padella è forse la più difficile, soprattutto se si usa il pesce già sfilettato tende ad essere troppo aggressiva per la consistenza delicata del pesce, a meno che non si usi un pesce ricco di grassi come il salmone, anche di grassi buoni come gli omega 3. Per evitare il contato diretto tra pentola e filetto esso può essere cotto su un “letto” di verdure come zucchine, peperoni ma anche spinaci, scarola ed altre.",
+        "alternatives": [
+          {
+            "id": "zpprm7jg0",
+            "name": "Filetti di merluzzo con pomodori, olive e capperi",
+            "quantityFromName": "1 mano",
+            "ingredients": [
+              {
+                "name": "Merluzzo",
+                "quantity": "145,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Olive Nere",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "150,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "4,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "7,00 g"
+              },
+              {
+                "name": "Basilico, Fresco",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": "Se si usa pesce congelato, è preferibile far scongelare il pesce in frigorifero (mettendolo la sera su un piatto) oppure nel microonde con il programma specifico, in modo da eliminare l’acqua in eccesso che non aiuta una buona cottura, mantenedo una consistenza accettabile anche per il pesce congelato.Mettere in una padella l'olio extra vergine d'oliva, la cipolla tritata e l'aglio spellato, far soffriggere il tutto a fiamma media per alcuni minutiUnire il pomodoro tagliato a cubetti oppure la passata, i filetti di pesce,  le olive ed i capperi se graditi. Lasciare cuocere col coperchio a fiamma bassa per alcuni minuti."
+          },
+          {
+            "id": "29qyhvm8t",
+            "name": "Pesce spada alla siciliana (pomodorini capperi, olive e pinoli)",
+            "quantityFromName": "¾ mano",
+            "ingredients": [
+              {
+                "name": "Pesce Spada",
+                "quantity": "105,00 g"
+              },
+              {
+                "name": "Olive Nere",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Capperi Sott'aceto",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "90,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "1,00 g"
+              },
+              {
+                "name": "Basilico, Fresco",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Pinoli",
+                "quantity": "10,00 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "h86c1oygj",
+            "name": "Salmone al forno",
+            "quantityFromName": "½ mano alta un dito e mezzo",
+            "ingredients": [
+              {
+                "name": "Salmone",
+                "quantity": "105,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,10 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "jhdmllpft",
+            "name": "Seppie in umido",
+            "quantityFromName": "1 pugno schiacciato",
+            "ingredients": [
+              {
+                "name": "Seppia",
+                "quantity": "190,00 g"
+              },
+              {
+                "name": "Passata di pomodoro",
+                "quantity": "65,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "7,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "5,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "grbizunit",
+            "name": "Spigola o branzino al forno, sfilettati",
+            "quantityFromName": "1 mano",
+            "ingredients": [
+              {
+                "name": "Spigola D'allevamento, Filetti",
+                "quantity": "150,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,20 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "yximjx72d",
+        "name": "Riso integrale bollito con extravergine a crudo",
+        "quantityFromName": "½ pugno schiacciato",
+        "ingredients": [
+          {
+            "name": "Riso Integrale, Crudo",
+            "quantity": "45,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "3,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,10 g"
+          }
+        ],
+        "notes": "Il riso integrale ha tempi di cottura lunghi, segnalo la versione Di Riso Scotti pronto in 10  minuti e RisoGallo Blond integrale che cuoce in 14 minuti e aggiunge ai vantaggi del riso integrale quelli del parboiling sulla riduzione della risposta glicemica. Anche il riso Flora integrale è un parboiled, con circa  18  minuti stimati di cottura.",
+        "alternatives": [
+          {
+            "id": "p1l7q5oyw",
+            "name": "Lupini Deamarizzati",
+            "quantityFromName": "7 cucchiai",
+            "ingredients": [
+              {
+                "name": "Lupini Deamarizzati",
+                "quantity": "210 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "jhod7mdhs",
+            "name": "Norvegesi - gallette con farro, lino e semi zucca",
+            "quantityFromName": "2 unità",
+            "ingredients": [
+              {
+                "name": "Norvegesi - gallette con farro, lino e semi zucca",
+                "quantity": "48 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "59rdlntkj",
+            "name": "Piselli in padella con soffritto leggero",
+            "quantityFromName": "7 cucchiai da minestra",
+            "ingredients": [
+              {
+                "name": "Piselli",
+                "quantity": "150,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "4,00 g"
+              },
+              {
+                "name": "Cipolle",
+                "quantity": "25,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Brodo Vegetale",
+                "quantity": "30,00 g"
+              }
+            ],
+            "notes": "Per i piselli si suggerisce di usare quelli congelati (o freschi) e non in scatola."
+          }
+        ]
+      },
+      {
+        "id": "zpbyvcv20",
+        "name": "Ratatouille - verdure a cubetti in padella - ex melanzane, peperoni, zucchine e pomodori",
+        "quantityFromName": "1 pugno schiacciato  e  mezzo",
+        "ingredients": [
+          {
+            "name": "Zucchine",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Peperoni Dolci",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Melanzane",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Pomodori Maturi",
+            "quantity": "80,00 g"
+          },
+          {
+            "name": "Cipolle",
+            "quantity": "70,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "10,00 g"
+          },
+          {
+            "name": "Olive Nere",
+            "quantity": "25,00 g"
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          },
+          {
+            "name": "Erbe Aromatiche (FOGLIE)",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Pulite e tagliate tutte le verdure a pezzi piuttosto grossi (circa 2 x 2 cm), ponetele in una padella, aggiungete sale, pepe e le erbe aromatiche, se gradite aggiungete olive nere, l’olio suggerito per porzione, mescolatele bene in modo da amalgamare il condimento. Le melanzane, prima di essere utilizzate per la cottura, richiedono un’attenzione particolare, sarebbe consigliabile riporle in una terrina alternando uno strato di melanzane ad uno strato di sale grosso, lasciate riposare per circa un’ora, sciacquate con cura per eliminare tutto il sale. Se il tempo è tiranno potete pulire e tagliare le melanzane per prima e lasciarle riposare nel sale fino a quando si finiscono di preparare le altre verdure, oppure preparare li mix di verdure senza melanzane.Cuocete a fuoco vivace per circa 30 minuti, fino a quando le verdure avranno perso quasi tutto il loro liquido e si saranno rosolate uniformemente. Se durante la cottura il liquido rilasciato dalle verdure non fosse sufficiente aggiungere un poco di acqua calda.Questo piatto può essere consumato caldo o freddo, potete quindi prepararne più porzioni e consumarle nei giorni seguenti, oppure surgelarle",
+        "alternatives": [
+          {
+            "id": "w492rve6p",
+            "name": "Cornetti o fagiolini lessati e conditi",
+            "quantityFromName": "3 pugni  e  ½",
+            "ingredients": [
+              {
+                "name": "Cornetti o fagiolini",
+                "quantity": "550,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "15,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,60 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "bl62uhjn8",
+            "name": "Peperonata",
+            "quantityFromName": "2 pugni schiacciati  e  ¼",
+            "ingredients": [
+              {
+                "name": "Peperoni Dolci",
+                "quantity": "420,00 g"
+              },
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "100,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "12,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,50 g"
+              },
+              {
+                "name": "Erbe Aromatiche (FOGLIE)",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "j3tc1cjam",
+            "name": "Pinzimonio (ex caropte, pomodorini, peperoni, rapanelli, cipollotto)",
+            "quantityFromName": "2 pugni",
+            "ingredients": [
+              {
+                "name": "Pomodori Maturi",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Carote",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Cetrioli",
+                "quantity": "70,00 g"
+              },
+              {
+                "name": "Finocchio",
+                "quantity": "80,00 g"
+              },
+              {
+                "name": "Peperoni Dolci",
+                "quantity": "70,00 g"
+              },
+              {
+                "name": "Cipollotto rosso",
+                "quantity": "50,00 g"
+              },
+              {
+                "name": "Ravanelli",
+                "quantity": "50,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "14,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,80 g"
+              },
+              {
+                "name": "Aceto",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": "Il pinzimonio è un simbolo della dieta mediterranea, è un modo informale di consumare verdura, pratico in quanto non necessita di lunga preparazione. Gli ortaggi sono un gruppo vario di vegetali, ricchi di diverse vitamine e minerali, in base anche ai loro differenti colori. Risultano utili nei meccanismi di stimolazione della sazietà in quanto vanno masticati e sgranocchiati con una certa vivacità, e questo fa sì che si generino segnali utili alla sensazione di sazietà. Tra gli ortaggi che possono essere utilizzati si ricordano, ad esempio, carote, finocchi, sedano, peperoni, pomodori ciliegini, rapanelli, fusi di insalata belga, cipollotti piccoli e “giovani”."
+          },
+          {
+            "id": "ybfhou42z",
+            "name": "Zucchine trifolate",
+            "quantityFromName": "2 pugni schiacciati  e  ¾",
+            "ingredients": [
+              {
+                "name": "Zucchine",
+                "quantity": "490,00 g"
+              },
+              {
+                "name": "Aglio, Fresco",
+                "quantity": "12,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "17,00 g"
+              },
+              {
+                "name": "Prezzemolo, Fresco",
+                "quantity": "12,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,70 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "h2myn3zvv",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  },
+  "Sabato": {
+    "Colazione": [
+      {
+        "id": "37fxo0ypj",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazzina",
+        "ingredients": [
+          {
+            "name": "Te', In Tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "pkxlq3pv8",
+            "name": "Caffè",
+            "quantityFromName": "1 tazza",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "bn9z23fha",
+        "name": "Yogurt Di Latte Intero",
+        "quantityFromName": "1 vasetto da 125 ml",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Intero",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "dzuozz7pe",
+        "name": "Fette biscottate Esselunga Equilibrio integrali",
+        "quantityFromName": "3 unità",
+        "ingredients": [
+          {
+            "name": "Fette biscottate Esselunga Equilibrio integrali",
+            "quantity": "24 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "gk0igqdh3",
+        "name": "Marmellata Fior di Frutta Rigoni di Asiago",
+        "quantityFromName": "3 cucchiaini",
+        "ingredients": [
+          {
+            "name": "Marmellata Fior di Frutta Rigoni di Asiago",
+            "quantity": "24 g"
+          }
+        ],
+        "notes": "Vanno bene tutti i gusti. Questa marmellata è prodotta utilizzando 100% frutta biologica, non contiene altri zuccheri oltre a quelli della frutta poichè per dolcificare viene utilizzato succo di mela",
+        "alternatives": []
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "8ama4um9a",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "tulri1f2j",
+        "name": "Pasta integrale (almeno 8 g/100 g di fibre) al pomodoro",
+        "quantityFromName": "1 pugno schiacciato  e  ¾",
+        "ingredients": [
+          {
+            "name": "Pasta Voiello integrale",
+            "quantity": "120,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "8,00 g"
+          },
+          {
+            "name": "Cipolle",
+            "quantity": "25,00 g"
+          },
+          {
+            "name": "Passata di pomodoro",
+            "quantity": "95,00 g"
+          },
+          {
+            "name": "Parmigiano",
+            "quantity": "10,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          }
+        ],
+        "notes": "Paste integrali con una buona quantità di fibre possono essere: Voiello, Rummo, la molisana o Garofalo, Esselunga Equilibrio.",
+        "alternatives": [
+          {
+            "id": "jtoihfu61",
+            "name": "Pasta integrale (almeno 8 g/100 g di fibre) con verdure",
+            "quantityFromName": "2 pugni schiacciati  e  ¼",
+            "ingredients": [
+              {
+                "name": "Pasta Voiello integrale",
+                "quantity": "120,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "9,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Parmigiano",
+                "quantity": "10,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Verdure miste",
+                "quantity": "240,00 g"
+              }
+            ],
+            "notes": "Paste integrali con una buona quantità di fibre possono essere: Voiello, Rummo, la molisana o Garofalo, Esselunga Equilibrio. Inserire verdure (ex: broccoli, cavolfiori, zucchine, biete, peperoni, cavolo verza) nella preparazione dei primi piatti aiuta a renderli più ricchi di fibre e ad abbassarne la densità energetica. E’ possibile cuocere le verdure in padella, oppure direttamente insieme alla pasta introducendole dopo l’inizio dell’ebollizione nel momento opportuno (ex: le teste del broccolo 2 min circa prima della fine della cottura della pasta, il corpo del broccolo deve essere tagliato a cubetti da 2 cm circa e può cuocere per tutto il tempo di cottura della pasta). In questo modo è possibile incorporare una significativa quantità di verdure nel primo piatto senza aumentare la quota di olio, che potrà essere aggiunto a parte. Poi potete aggiungere l'olio a crudo e, se gradite, le spezie come pepe-peperoncino. Altrimenti può essere preparato a parte un sugo di verdure, con o senza pomodoro a seconda dei gusti, utilizzando la quantità di olio prevista per porzione anche per fare un soffritto, in tale caso è suggeribile preparare il sugo per non meno di 4 persone, altrimenti la quantità di olio sarà insufficiente per poter realizzare correttamente un soffritto. E’ possibile aggiungere un poco di parmigiano grattugiato (1 cucchiaino circa), ma non la mozzarella a cubetti in quanto ne incrementerebbe la densità energetica. Il volume della pasta con verdure espresso in pugni, mestoli o cup risulta maggiore rispetto ad altre ricette: a parità di grammi di pasta le verdure ne incrementeranno il volume."
+          }
+        ]
+      },
+      {
+        "id": "orvb94196",
+        "name": "Verdura cruda mista, condita",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Ortaggi misti ( pomodori, carote, sedano peperoni, ravanelli, finoccchi)",
+            "quantity": "160,00 g"
+          },
+          {
+            "name": "Verdura cruda in foglia",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Per verdura cruda mista si intende un mix di verdura in foglia ed ortaggi, come ad esempio una insalata mista con verdura in foglia con pomodori, finocchi e carote, ma potrebbe essere con sedano, cetrioli, peperoni o altri ortaggi. Verdura in foglia, ortaggi e verdure cotte andrebbero variate nel rispetto della stagionalità, in modo da poter trarre i benefici che le diverse verdure possono darci. Anche i diversi colori delle verdure ricordano che in esse troviamo elementi diversi, dunque variarne il colore è un buon suggerimento. In questo gruppo si includono tutti i tipi di verdure ed ortaggi tranne le patate ed i legumi (fagioli, ceci, lenticchie e piselli) che hanno valori nutrizionali differenti. La porzione di verdura indicata nella dieta è quella minima, se gradito se ne può usare una quantità maggiore a parità di condimento, questa indicazione non è valida per legumi e patate e per pazienti scoagulati.",
+        "alternatives": []
+      }
+    ],
+    "Cena": [
+      {
+        "id": "gzx3wvyhz",
+        "name": "Petto di pollo (o tacchino) ai ferri",
+        "quantityFromName": "1 mano",
+        "ingredients": [
+          {
+            "name": "Pollo, Petto, Senza Pelle",
+            "quantity": "165,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "8,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Erbe Aromatiche (FOGLIE)",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Pepe Nero",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "tr1xt7dme",
+            "name": "Bistecca di manzo ai ferri",
+            "quantityFromName": "1 mano",
+            "ingredients": [
+              {
+                "name": "Manzo, tagli di carne magra",
+                "quantity": "160,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "6,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Erbe Aromatiche (FOGLIE)",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "sotqzq366",
+            "name": "Coscia di pollo al forno o in padella (senza pelle)",
+            "quantityFromName": "3 unità",
+            "ingredients": [
+              {
+                "name": "Pollo, Fuso (COSCIA), Senza Pelle",
+                "quantity": "240,00 g"
+              },
+              {
+                "name": "Erbe Aromatiche (FOGLIE)",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,30 g"
+              }
+            ],
+            "notes": "Il peso di un fuso medio è 120, tuttavia essendo le analisi effettuate sulla parte edibile essa risulta essere di 80 g circa."
+          }
+        ]
+      },
+      {
+        "id": "hs0yf6c88",
+        "name": "Verdura cruda in foglia, condita con olio di mais vitaminizzato",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,20 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          },
+          {
+            "name": "Verdura cruda in foglia",
+            "quantity": "60,00 g"
+          },
+          {
+            "name": "Olio Di Mais Vitaminizzato",
+            "quantity": "6,00 g"
+          }
+        ],
+        "notes": "Per verdura in foglia si intendono varietà come la comune lattuga, romana, scarola ma anche il radicchio sia rosso che verde, l’insalata riccia, i grasselli o valeriane e la misticanza. Esse sono particolarmente ricche di acido folico, una vitamina che prende il nome proprio dalla parola “foglia”, talmente utile alla nostra salute da esserne suggerita l’integrazione prima del concepimento per prevenire le serie problematiche dovute ad una carenza. Ma la salute è importante non solo in questi periodi particolari, è dunque suggeribile un consumo frequente di verdura in foglia, in porzioni anche maggiori di quella indicata che è la porzione minima: abbondare con la verdura è possibile, a partita di condimento suggerito.Il consumo regolare di verdura è uno dei cardini di un’alimentazione sana, alla luce anche del ruolo fondamentale che essa ha per la salute del nostro microbiota, consumarne meno di quanto indicato sia in termini di porzione che di frequenza di consumo compromette l’efficacia ed il bilanciamento nutrizionale della dieta.",
+        "alternatives": []
+      },
+      {
+        "id": "c7fei3moi",
+        "name": "Crakers Piacersi Conad con riso soffiato integrale ( e Beta-glucani)",
+        "quantityFromName": "1 confezione monodose",
+        "ingredients": [
+          {
+            "name": "Crakers Piacersi Conad con riso soffiato integrale ( e Beta-glucani)",
+            "quantity": "30 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "wgfxpgeui",
+            "name": "Crackers Buonpertutti Galbusera",
+            "quantityFromName": "5 sfoglie",
+            "ingredients": [
+              {
+                "name": "Crackers Buonpertutti Galbusera",
+                "quantity": "33,5 g"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "id": "2tn4auq13",
+            "name": "Norvegesi - gallette con farro, lino e semi zucca",
+            "quantityFromName": "2 unità",
+            "ingredients": [
+              {
+                "name": "Norvegesi - gallette con farro, lino e semi zucca",
+                "quantity": "48 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "cy7mt89rp",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  },
+  "Domenica": {
+    "Colazione": [
+      {
+        "id": "dw1hk36k0",
+        "name": "Tè caldo",
+        "quantityFromName": "1 tazzina",
+        "ingredients": [
+          {
+            "name": "Tè, in tazza",
+            "quantity": "250 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": [
+          {
+            "id": "zjnqnzebk",
+            "name": "Caffè",
+            "quantityFromName": "1 tazza",
+            "ingredients": [
+              {
+                "name": "Caffè",
+                "quantity": "50 g"
+              }
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "scsedude7",
+        "name": "Yogurt Di Latte Intero",
+        "quantityFromName": "1 vasetto da 125 ml",
+        "ingredients": [
+          {
+            "name": "Yogurt Di Latte Intero",
+            "quantity": "125 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "408ta1dvl",
+        "name": "Fette biscottate Esselunga Equilibrio integrali",
+        "quantityFromName": "3 unità",
+        "ingredients": [
+          {
+            "name": "Fette biscottate Esselunga Equilibrio integrali",
+            "quantity": "24 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      },
+      {
+        "id": "438lzasvo",
+        "name": "Marmellata Fior di Frutta Rigoni di Asiago",
+        "quantityFromName": "3 cucchiaini",
+        "ingredients": [
+          {
+            "name": "Marmellata Fior di Frutta Rigoni di Asiago",
+            "quantity": "24 g"
+          }
+        ],
+        "notes": "Vanno bene tutti i gusti. Questa marmellata è prodotta utilizzando 100% frutta biologica, non contiene altri zuccheri oltre a quelli della frutta poichè per dolcificare viene utilizzato succo di mela",
+        "alternatives": []
+      }
+    ],
+    "Tra colazione e pranzo": [
+      {
+        "id": "ll0q405ug",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ],
+    "Pranzo": [
+      {
+        "id": "5ukmc3m1d",
+        "name": "Pasta integrale (almeno 8 g/100 g di fibre) al pomodoro",
+        "quantityFromName": "1 pugno schiacciato  e  ¾",
+        "ingredients": [
+          {
+            "name": "Pasta Voiello integrale",
+            "quantity": "120,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "8,00 g"
+          },
+          {
+            "name": "Cipolle",
+            "quantity": "25,00 g"
+          },
+          {
+            "name": "Passata di pomodoro",
+            "quantity": "95,00 g"
+          },
+          {
+            "name": "Parmigiano",
+            "quantity": "10,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,40 g"
+          }
+        ],
+        "notes": "Paste integrali con una buona quantità di fibre possono essere: Voiello, Rummo, la molisana o Garofalo, Esselunga Equilibrio.",
+        "alternatives": [
+          {
+            "id": "0ort4ovmr",
+            "name": "Pasta integrale (almeno 8 g/100 g di fibre) con verdure",
+            "quantityFromName": "2 pugni schiacciati  e  ¼",
+            "ingredients": [
+              {
+                "name": "Pasta Voiello integrale",
+                "quantity": "120,00 g"
+              },
+              {
+                "name": "Olio Di Oliva Extravergine",
+                "quantity": "9,00 g"
+              },
+              {
+                "name": "Pepe Nero",
+                "quantity": "q.b."
+              },
+              {
+                "name": "Parmigiano",
+                "quantity": "10,00 g"
+              },
+              {
+                "name": "Sale Da Cucina",
+                "quantity": "0,40 g"
+              },
+              {
+                "name": "Verdure miste",
+                "quantity": "240,00 g"
+              }
+            ],
+            "notes": "Paste integrali con una buona quantità di fibre possono essere: Voiello, Rummo, la molisana o Garofalo, Esselunga Equilibrio. Inserire verdure (ex: broccoli, cavolfiori, zucchine, biete, peperoni, cavolo verza) nella preparazione dei primi piatti aiuta a renderli più ricchi di fibre e ad abbassarne la densità energetica. E’ possibile cuocere le verdure in padella, oppure direttamente insieme alla pasta introducendole dopo l’inizio dell’ebollizione nel momento opportuno (ex: le teste del broccolo 2 min circa prima della fine della cottura della pasta, il corpo del broccolo deve essere tagliato a cubetti da 2 cm circa e può cuocere per tutto il tempo di cottura della pasta). In questo modo è possibile incorporare una significativa quantità di verdure nel primo piatto senza aumentare la quota di olio, che potrà essere aggiunto a parte. Poi potete aggiungere l'olio a crudo e, se gradite, le spezie come pepe-peperoncino. Altrimenti può essere preparato a parte un sugo di verdure, con o senza pomodoro a seconda dei gusti, utilizzando la quantità di olio prevista per porzione anche per fare un soffritto, in tale caso è suggeribile preparare il sugo per non meno di 4 persone, altrimenti la quantità di olio sarà insufficiente per poter realizzare correttamente un soffritto. E’ possibile aggiungere un poco di parmigiano grattugiato (1 cucchiaino circa), ma non la mozzarella a cubetti in quanto ne incrementerebbe la densità energetica. Il volume della pasta con verdure espresso in pugni, mestoli o cup risulta maggiore rispetto ad altre ricette: a parità di grammi di pasta le verdure ne incrementeranno il volume."
+          }
+        ]
+      },
+      {
+        "id": "2goazx10m",
+        "name": "Verdura cruda mista, condita",
+        "quantityFromName": "2 pugni",
+        "ingredients": [
+          {
+            "name": "Ortaggi misti ( pomodori, carote, sedano peperoni, ravanelli, finoccchi)",
+            "quantity": "160,00 g"
+          },
+          {
+            "name": "Verdura cruda in foglia",
+            "quantity": "30,00 g"
+          },
+          {
+            "name": "Olio Di Oliva Extravergine",
+            "quantity": "7,00 g"
+          },
+          {
+            "name": "Sale Da Cucina",
+            "quantity": "0,30 g"
+          },
+          {
+            "name": "Aceto",
+            "quantity": "q.b."
+          }
+        ],
+        "notes": "Per verdura cruda mista si intende un mix di verdura in foglia ed ortaggi, come ad esempio una insalata mista con verdura in foglia con pomodori, finocchi e carote, ma potrebbe essere con sedano, cetrioli, peperoni o altri ortaggi. Verdura in foglia, ortaggi e verdure cotte andrebbero variate nel rispetto della stagionalità, in modo da poter trarre i benefici che le diverse verdure possono darci. Anche i diversi colori delle verdure ricordano che in esse troviamo elementi diversi, dunque variarne il colore è un buon suggerimento. In questo gruppo si includono tutti i tipi di verdure ed ortaggi tranne le patate ed i legumi (fagioli, ceci, lenticchie e piselli) che hanno valori nutrizionali differenti. La porzione di verdura indicata nella dieta è quella minima, se gradito se ne può usare una quantità maggiore a parità di condimento, questa indicazione non è valida per legumi e patate e per pazienti scoagulati.",
+        "alternatives": []
+      }
+    ],
+    "Cena": [
+      {
+        "id": "53b06jgme",
+        "name": "Pasto libero (valori medi stimati)",
+        "quantityFromName": "1 unità",
+        "ingredients": [
+          {
+            "name": "Pasto libero (valori medi stimati)",
+            "quantity": "100 g"
+          }
+        ],
+        "notes": "",
+        "alternatives": []
+      }
+    ],
+    "Dopo cena": [
+      {
+        "id": "418rxsxps",
+        "name": "Frutta fresca",
+        "quantityFromName": "1 pugno",
+        "ingredients": [
+          {
+            "name": "Frutta fresca",
+            "quantity": "210 g"
+          }
+        ],
+        "notes": "Per  la frutta ricordo l’importanza di variare la tipologia: Kiwi, pere, mele di diversa tipologia tra cui segnalo le “Renette” (Melinda)  , di mele e pere consumare  sempre con la buccia ben lavata, melograno (lungo da preparare ma è una miniera di polifenoli), ribes,  mirtilli oltre agli agrumi. In primavera-estate è più facile variare usando anche fragole, nespole, ciliegie, pesche, albicocche melone. Frutti di bosco sono fonte di polifenoli, così come l’uva fragola o americana, in generale i frutti piccoli sono meno apprezzati commercialmente, ma proporzionalmente al peso più ricchi di antiossidanti.  La banana max 2 volte per sett. , meglio preferire quelle meno mature con buccia che tende al verde.  Più variamo e meglio sarà per il nostro microbiota. Se alcuni frutti danno fastidio e provocano gonfiore, saranno proprio quei frutti a non dover essere eliminati, ma dovremo allenare il microbiota a tollerarli, allenandolo con progressività, iniziando a consumare piccole porzioni (2 dita circa) ed incrementando progressivamente di settimana in settimana.",
+        "alternatives": []
+      }
+    ]
+  }
+}
