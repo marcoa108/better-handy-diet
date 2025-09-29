@@ -1,0 +1,15 @@
+{
+  "name": "better-handy-diet",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "lint": "echo 'no lint configured'",
+    "test": "echo 'no tests' && exit 0"
+  },
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}
