@@ -185,7 +185,7 @@ function categorizeIngredient(name) {
 
   if ([ 'pane', 'wasa', 'gallette', 'cracker', 'crackers', 'crostino', 'norvegesi' ].some(has)) return 'Pane e sostituti';
 
-  if ([ 'biscott', 'kellogg', 'frollin', 'muesli', 'nice morning', 'galbusera' ].some(has)) return 'Dolci e colazione';
+  if ([ 'biscott', 'kellogg', 'frollin', 'muesli', 'nice morning', 'galbusera', 'marmellata' ].some(has)) return 'Colazione';
 
   if ([ 'latte', 'yogurt', 'parmigiano', 'formagg' ].some(has)) return 'Latticini';
 
@@ -211,7 +211,7 @@ function categorizeIngredient(name) {
 function aggregateIngredientsByCategory(dishes) {
   const flat = aggregateIngredients(dishes);
   const order = [
-    'Verdura fresca', 'Frutta', 'Legumi', 'Cereali e derivati', 'Pane e sostituti', 'Dolci e colazione',
+    'Verdura fresca', 'Frutta', 'Legumi', 'Cereali e derivati', 'Pane e sostituti', 'Colazione',
     'Latticini', 'Uova', 'Pesce', 'Carne', 'Semi e frutta secca', "Conserve e sott'olio", 'Erbe e spezie',
     'Condimenti', 'Bevande', 'Altro'
   ];
