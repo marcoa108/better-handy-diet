@@ -22,6 +22,25 @@ const MEAL_ORDER = [
 
 const STORAGE_KEY = 'better_handy_diet_selections_v1';
 
+// Simple ingredient categorization
+function categorizeIngredient(name) {
+  const n = (name || '').toLowerCase();
+  const has = (s) => n.includes(s);
+  if (has("sott'olio") || has('sottolio') || has("sott'aceto") || has('vasetto')) return "Sott'olio e conserve";
+  if (has('olio')) return 'Oli e condimenti';
+  if (has('sale') || has('pepe') || has('aceto') || has('brodo')) return 'Condimenti';
+  if (has('zucchin') || has('carot') || has('pomod') || has('melanzan') || has('peperon') || has('insalat') || has('lattuga') || has('radicchi') || has('spinac') || has('cavolo') || has('verza') || has('finoc') || has('sedano') || has('cetriol') || has('ravanelli') || has('cipoll') || has('cipollotto') || has('aglio') || has('prezzemol') || has('basilic') || has('erbe aromatiche')) return 'Verdura fresca';
+  if (has('frutta')) return 'Frutta';
+  if (has('legumi') || has('ceci') || has('fagiol') || has('lenticch') || has('piselli') || has('fave') || has('lupini')) return 'Legumi';
+  if (has('pasta') || has('riso') || has('farro') || has('orzo') || has('cereali') || has('fiocchi') || has('crusca') || has('muesli')) return 'Cereali e derivati';
+  if (has('pane') || has('cracker') || has('crakers') || has('gallette') || has('wasa') || has('crostino') || has('biscott')) return 'Pane e prodotti da forno';
+  if (has('pesce') || has('salmone') || has('merluzz') || has('sgombro') || has('spigola') || has('branzino') || has('tonno') || has('seppia')) return 'Pesce';
+  if (has('carne') || has('pollo') || has("uovo") || has('uova') || has('manzo')) return 'Carne e uova';
+  if (has('latte') || has('yogurt') || has('parmigiano') || has('formagg')) return 'Latticini';
+  if (has('olive') || has('capperi')) return "Sott'olio e conserve";
+  return 'Altro';
+}
+
 function getSelections() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -114,9 +133,10 @@ function aggregateIngredients(dishes) {
     const parts = [];
     if (x.sumG > 0) parts.push(`${x.sumG.toFixed(2)} g`);
     if (x.hasNonNumeric || parts.length === 0) parts.push(...x.entries);
-    return { name: x.name, quantity: parts.join(' + ') };
+    const cat = categorizeIngredient(x.name);
+    return { name: x.name, quantity: parts.join(' + '), category: cat };
   });
-  list.sort((a, b) => a.name.localeCompare(b.name));
+  list.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
   return list;
 }
 
@@ -154,15 +174,32 @@ function renderRightPanel(sideEl, contentHtml) {
 
 function renderShoppingList(sideEl, usedDishes) {
   const list = aggregateIngredients(usedDishes);
-  const html = list.length
-    ? `<ul class="list-group">${list
-        .map((i) => `<li class="list-group-item d-flex justify-content-between"><span>${i.name}</span><span class="text-muted">${i.quantity}</span></li>`)
-        .join('')}</ul>`
-    : '<div class="text-muted">Nessun ingrediente</div>';
-  renderRightPanel(
-    sideEl,
-    `<h5 class="mb-3">Lista spesa (giorno corrente)</h5>${html}`
-  );
+  if (!list.length) {
+    renderRightPanel(sideEl, `<h5 class="mb-3">Lista spesa (giorno corrente)</h5><div class="text-muted">Nessun ingrediente</div>`);
+    return;
+  }
+  const byCat = list.reduce((acc, it) => {
+    acc[it.category] = acc[it.category] || [];
+    acc[it.category].push(it);
+    return acc;
+  }, {});
+  const cats = Object.keys(byCat).sort((a, b) => a.localeCompare(b));
+  const sections = cats
+    .map(
+      (c) => `
+      <div class="mb-3">
+        <div class="fw-bold text-uppercase small text-muted mb-1">${c}</div>
+        <ul class="list-group">
+          ${byCat[c]
+            .map(
+              (i) => `<li class="list-group-item d-flex justify-content-between"><span>${i.name}</span><span class="text-muted">${i.quantity}</span></li>`
+            )
+            .join('')}
+        </ul>
+      </div>`
+    )
+    .join('');
+  renderRightPanel(sideEl, `<h5 class="mb-3">Lista spesa (giorno corrente)</h5>${sections}`);
 }
 
 function download(filename, text) {
@@ -177,6 +214,7 @@ function buildAppUI(rootMain, rootSide, data) {
   let selections = getSelections();
   const days = Object.keys(data);
   let dayIdx = 0;
+  let openPanel = null; // { type: 'alts'|'note', dishId: string } or null
 
   const header = document.createElement('div');
   header.className = 'd-flex align-items-center justify-content-between mb-3';
@@ -195,10 +233,25 @@ function buildAppUI(rootMain, rootSide, data) {
     <input id="importFile" type="file" accept="application/json" class="d-none" />
   `;
 
+  // Search UI
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'mb-3';
+  searchWrap.innerHTML = `
+    <div class="input-group">
+      <span class="input-group-text">Cerca</span>
+      <input id="dietSearch" type="text" class="form-control" placeholder="Cerca piatti (min 2 lettere)..." />
+    </div>
+    <div id="searchResults" class="mt-2"></div>
+  `;
+
   const mealsContainer = document.createElement('div');
 
   function updateDayTitle() {
     document.getElementById('dayTitle').textContent = days[dayIdx];
+  }
+
+  function mealSlug(mealType) {
+    return mealType.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   }
 
   function renderDay() {
@@ -217,6 +270,8 @@ function buildAppUI(rootMain, rootSide, data) {
       const items = dayMeals[mealType] || [];
       const card = document.createElement('div');
       card.className = 'card mb-3';
+      const slug = mealSlug(mealType);
+      card.setAttribute('data-meal', slug);
       card.innerHTML = `
         <div class="card-header d-flex justify-content-between align-items-center">
           <strong>${mealType}</strong>
@@ -253,6 +308,12 @@ function buildAppUI(rootMain, rootSide, data) {
           const act = btn.getAttribute('data-act');
           if (act === 'alts') {
             if (!dish.alternatives || !dish.alternatives.length) return;
+            if (openPanel && openPanel.type === 'alts' && openPanel.dishId === dish.id) {
+              // Toggle off
+              rootSide.innerHTML = '';
+              openPanel = null;
+              return;
+            }
             const altsHtml = `
               <h5 class="mb-3">Alternative per: <em>${dish.name}</em></h5>
               <div class="list-group">
@@ -269,16 +330,23 @@ function buildAppUI(rootMain, rootSide, data) {
               </div>
             `;
             renderRightPanel(rootSide, altsHtml);
+            openPanel = { type: 'alts', dishId: dish.id };
             rootSide.querySelectorAll('[data-alt-id]').forEach((btnAlt) => {
               btnAlt.addEventListener('click', () => {
                 const altId = btnAlt.getAttribute('data-alt-id');
                 setChoiceForDish(selections, day, mealType, dish, altId);
                 setSelections(selections);
                 showToast('Alternativa applicata', 'success');
+                openPanel = null;
                 renderDay();
               });
             });
           } else if (act === 'note') {
+            if (openPanel && openPanel.type === 'note' && openPanel.dishId === dish.id) {
+              rootSide.innerHTML = '';
+              openPanel = null;
+              return;
+            }
             const html = `
               <h5 class="mb-3">Note</h5>
               <div class="alert alert-info" role="alert">
@@ -286,10 +354,12 @@ function buildAppUI(rootMain, rootSide, data) {
               </div>
             `;
             renderRightPanel(rootSide, html);
+            openPanel = { type: 'note', dishId: dish.id };
           } else if (act === 'reset') {
             setChoiceForDish(selections, day, mealType, dish, null);
             setSelections(selections);
             showToast('Ripristinato', 'warning');
+            openPanel = null;
             renderDay();
           }
         });
@@ -307,10 +377,12 @@ function buildAppUI(rootMain, rootSide, data) {
   // Controls
   header.querySelector('#prevDay').addEventListener('click', () => {
     dayIdx = (dayIdx - 1 + days.length) % days.length;
+    openPanel = null;
     renderDay();
   });
   header.querySelector('#nextDay').addEventListener('click', () => {
     dayIdx = (dayIdx + 1) % days.length;
+    openPanel = null;
     renderDay();
   });
   header.querySelector('#btnShopping').addEventListener('click', () => {
@@ -326,6 +398,61 @@ function buildAppUI(rootMain, rootSide, data) {
     });
     renderShoppingList(rootSide, used);
   });
+  // Search behavior
+  function buildSearchResults(q) {
+    const query = (q || '').trim().toLowerCase();
+    const box = document.getElementById('searchResults');
+    if (!box) return;
+    if (query.length < 2) {
+      box.innerHTML = '';
+      return;
+    }
+    const rows = [];
+    days.forEach((dName, dIdx) => {
+      const dayMeals = data[dName] || {};
+      Object.keys(dayMeals).forEach((mealType) => {
+        (dayMeals[mealType] || []).forEach((dish) => {
+          const inMain = dish.name.toLowerCase().includes(query);
+          const inAlts = (dish.alternatives || []).some((a) => a.name.toLowerCase().includes(query));
+          if (inMain || inAlts) {
+            rows.push({ dName, dIdx, mealType, dishName: dish.name });
+          }
+        });
+      });
+    });
+    if (!rows.length) {
+      box.innerHTML = '<div class="text-muted">Nessun risultato</div>';
+      return;
+    }
+    box.innerHTML = `
+      <div class="card">
+        <div class="card-header">Risultati (${rows.length})</div>
+        <ul class="list-group list-group-flush">
+          ${rows
+            .map((r, idx) => `
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div><strong>${r.dName}</strong> – ${r.mealType} <span class="text-muted">(${r.dishName})</span></div>
+                <button class="btn btn-sm btn-outline-primary" data-go="${idx}">Vai</button>
+              </li>`)
+            .join('')}
+        </ul>
+      </div>`;
+    box.querySelectorAll('[data-go]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const idx = parseInt(btn.getAttribute('data-go'), 10);
+        const r = rows[idx];
+        if (!r) return;
+        dayIdx = r.dIdx;
+        openPanel = null;
+        renderDay();
+        // scroll to meal
+        const slug = mealSlug(r.mealType);
+        const el = document.querySelector(`[data-meal="${slug}"]`);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+  searchWrap.querySelector('#dietSearch').addEventListener('input', (e) => buildSearchResults(e.target.value));
   header.querySelector('#btnExport').addEventListener('click', () => {
     download('selezioni_dieta.json', JSON.stringify(getSelections(), null, 2));
     showToast('Esportato file selezioni', 'primary');
@@ -361,6 +488,7 @@ function buildAppUI(rootMain, rootSide, data) {
   // Mount
   rootMain.innerHTML = '';
   rootMain.appendChild(header);
+  rootMain.appendChild(searchWrap);
   rootMain.appendChild(mealsContainer);
 
   // First render
