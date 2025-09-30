@@ -203,6 +203,7 @@ function buildAppUI(rootMain, rootSide, data) {
   const days = Object.keys(data);
   let dayIdx = 0;
   let shoppingScope = 'day'; // 'day' | 'week'
+  let shoppingVisible = false; // two-col default off; one-col default on (set below)
 
   const isTwoCol = !!document.getElementById('content-a');
   const isOneCol = !!document.getElementById('content') && !isTwoCol;
@@ -253,10 +254,12 @@ function buildAppUI(rootMain, rootSide, data) {
         <div class="btn-group btn-group-sm" role="group">
           <button id="topScopeDay" class="btn btn-outline-success active">Giorno</button>
           <button id="topScopeWeek" class="btn btn-outline-success">Settimana</button>
+          <button id="topToggle" class="btn btn-outline-secondary">Nascondi</button>
         </div>
       </div>
       <div class="card-body" id="shoppingTopBody"></div>
     `;
+    shoppingVisible = true; // default visible in one-column
   }
 
   function updateDayTitle() {
@@ -289,6 +292,11 @@ function buildAppUI(rootMain, rootSide, data) {
   function renderTopShopping() {
     if (!isOneCol) return;
     const body = shoppingTop.querySelector('#shoppingTopBody');
+    if (!shoppingVisible) {
+      body.classList.add('d-none');
+      return;
+    }
+    body.classList.remove('d-none');
     const used = shoppingScope === 'week' ? collectUsedDishesForWeek() : collectUsedDishesForDay(days[dayIdx]);
     const list = aggregateIngredients(used);
     body.innerHTML = list.length
@@ -487,10 +495,12 @@ function buildAppUI(rootMain, rootSide, data) {
 
     // Shopping list
     if (isTwoCol && rootSide) {
-      if (shoppingScope === 'week') {
-        renderShoppingList(rootSide, collectUsedDishesForWeek(), 'Settimana');
-      } else {
-        renderShoppingList(rootSide, usedDishes, days[dayIdx]);
+      if (shoppingVisible) {
+        if (shoppingScope === 'week') {
+          renderShoppingList(rootSide, collectUsedDishesForWeek(), 'Settimana');
+        } else {
+          renderShoppingList(rootSide, usedDishes, days[dayIdx]);
+        }
       }
     } else if (isOneCol) {
       renderTopShopping();
@@ -514,24 +524,32 @@ function buildAppUI(rootMain, rootSide, data) {
       renderDay();
     });
     header.querySelector('#btnShopping').addEventListener('click', () => {
-      if (shoppingScope === 'week') {
-        renderShoppingList(rootSide, collectUsedDishesForWeek(), 'Settimana');
-      } else {
-        const used = collectUsedDishesForDay(days[dayIdx]);
-        renderShoppingList(rootSide, used, days[dayIdx]);
+      shoppingVisible = !shoppingVisible;
+      const btn = header.querySelector('#btnShopping');
+      btn.classList.toggle('active', shoppingVisible);
+      if (shoppingVisible) {
+        if (shoppingScope === 'week') {
+          renderShoppingList(rootSide, collectUsedDishesForWeek(), 'Settimana');
+        } else {
+          const used = collectUsedDishesForDay(days[dayIdx]);
+          renderShoppingList(rootSide, used, days[dayIdx]);
+        }
+      } else if (rootSide) {
+        // Clear side panel when turning off
+        rootSide.innerHTML = '';
       }
     });
     header.querySelector('#btnScopeDay').addEventListener('click', () => {
       shoppingScope = 'day';
       header.querySelector('#btnScopeDay').classList.add('active');
       header.querySelector('#btnScopeWeek').classList.remove('active');
-      renderDay();
+      if (shoppingVisible) renderDay();
     });
     header.querySelector('#btnScopeWeek').addEventListener('click', () => {
       shoppingScope = 'week';
       header.querySelector('#btnScopeWeek').classList.add('active');
       header.querySelector('#btnScopeDay').classList.remove('active');
-      renderDay();
+      if (shoppingVisible) renderDay();
     });
   } else {
     // One-column shopping scope toggles
@@ -545,6 +563,12 @@ function buildAppUI(rootMain, rootSide, data) {
       shoppingScope = 'week';
       shoppingTop.querySelector('#topScopeWeek').classList.add('active');
       shoppingTop.querySelector('#topScopeDay').classList.remove('active');
+      renderTopShopping();
+    });
+    shoppingTop?.querySelector('#topToggle')?.addEventListener('click', () => {
+      shoppingVisible = !shoppingVisible;
+      const btn = shoppingTop.querySelector('#topToggle');
+      btn.textContent = shoppingVisible ? 'Nascondi' : 'Mostra';
       renderTopShopping();
     });
   }
