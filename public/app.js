@@ -23,6 +23,7 @@ const MEAL_ORDER = [
 
 const STORAGE_KEY = 'better_handy_diet_selections_v1';
 const STORAGE_SWAP_KEY = 'better_handy_diet_swaps_v1';
+const STORAGE_PROMOTE_KEY = 'better_handy_diet_promotions_v1';
 
 function getSelections() {
   try {
@@ -48,6 +49,45 @@ function getSwaps() {
 
 function setSwaps(sw) {
   localStorage.setItem(STORAGE_SWAP_KEY, JSON.stringify(sw));
+}
+
+function getPromotions() {
+  try {
+    const raw = localStorage.getItem(STORAGE_PROMOTE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+function setPromotions(p) {
+  localStorage.setItem(STORAGE_PROMOTE_KEY, JSON.stringify(p));
+}
+
+function makeAltFromDish(dish) {
+  return {
+    id: `orig:${dish.id}`,
+    name: dish.name,
+    quantityFromName: dish.quantityFromName,
+    ingredients: (dish.ingredients || []).map((x) => ({ ...x })),
+    notes: dish.notes || '',
+  };
+}
+
+function buildDishViewModel(dish, promotions) {
+  const promotedAltId = promotions[dish.id] || null;
+  if (!promotedAltId) {
+    return { main: dish, alts: dish.alternatives || [], promotedAltId: null };
+  }
+  const alts = [];
+  // original main becomes an alternative
+  alts.push(makeAltFromDish(dish));
+  // other alts excluding the promoted one
+  for (const a of dish.alternatives || []) {
+    if (a.id !== promotedAltId) alts.push(a);
+  }
+  const main = (dish.alternatives || []).find((a) => a.id === promotedAltId) || dish;
+  return { main, alts, promotedAltId };
 }
 
 function ensureToastContainer() {
@@ -200,6 +240,7 @@ function download(filename, text) {
 function buildAppUI(rootMain, rootSide, data) {
   let selections = getSelections();
   let swaps = getSwaps();
+  let promotions = getPromotions();
   const days = Object.keys(data);
   let dayIdx = 0;
   let shoppingScope = 'day'; // 'day' | 'week'
@@ -276,8 +317,15 @@ function buildAppUI(rootMain, rootSide, data) {
       const sourceDay = effectiveDayForMeal(swaps, day, mealType);
       const items = (data[sourceDay] || {})[mealType] || [];
       items.forEach((dish) => {
-        const selAltId = currentChoiceForDish(selections, day, mealType, dish);
-        used.push(resolveDish(dish, selAltId));
+        const selAltIdRaw = currentChoiceForDish(selections, day, mealType, dish);
+        const { main, alts, promotedAltId } = buildDishViewModel(dish, promotions);
+        const selAltId = selAltIdRaw === promotedAltId ? null : selAltIdRaw;
+        let eff = main;
+        if (selAltId) {
+          const found = (alts || []).find((a) => a.id === selAltId);
+          if (found) eff = found;
+        }
+        used.push(eff);
       });
     });
     return used;
@@ -332,13 +380,19 @@ function buildAppUI(rootMain, rootSide, data) {
       const list = card.querySelector('.list-group');
 
       items.forEach((dish) => {
-        const selAltId = currentChoiceForDish(selections, day, mealType, dish);
-        const effDish = resolveDish(dish, selAltId);
+        const selAltIdRaw = currentChoiceForDish(selections, day, mealType, dish);
+        const { main, alts, promotedAltId } = buildDishViewModel(dish, promotions);
+        const selAltId = selAltIdRaw === promotedAltId ? null : selAltIdRaw;
+        let effDish = main;
+        if (selAltId) {
+          const found = (alts || []).find((a) => a.id === selAltId);
+          if (found) effDish = found;
+        }
         usedDishes.push(effDish);
 
         const li = document.createElement('div');
         li.className = 'list-group-item';
-        const hasAlts = dish.alternatives && dish.alternatives.length;
+        const hasAlts = (alts && alts.length) || (dish.alternatives && dish.alternatives.length);
         const hasNotes = !!effDish.notes;
         li.innerHTML = `
           <div class="d-flex justify-content-between align-items-start gap-3">
@@ -361,20 +415,31 @@ function buildAppUI(rootMain, rootSide, data) {
           if (!btn) return;
           const act = btn.getAttribute('data-act');
           if (act === 'alts') {
-            if (!dish.alternatives || !dish.alternatives.length) return;
+            const view = buildDishViewModel(dish, promotions);
+            const listToUse = view.alts && view.alts.length ? view.alts : (dish.alternatives || []);
+            if (!listToUse.length) return;
             const altsHtml = `
-              <h6 class="mb-2">Alternative per: <em>${dish.name}</em></h6>
+              <h6 class="mb-2">Alternative per: <em>${view.main.name}</em></h6>
               <div class="list-group">
-                ${dish.alternatives
+                ${listToUse
                   .map((a) => `
-                    <button class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" data-alt-id="${a.id}">
-                      <div>
-                        <div class="fw-semibold">${a.name}</div>
-                        <div class="text-muted small">${a.quantityFromName || ''}</div>
+                    <div class="list-group-item">
+                      <div class="d-flex justify-content-between align-items-start gap-2">
+                        <div>
+                          <div class="fw-semibold">${a.name}</div>
+                          <div class="text-muted small">${a.quantityFromName || ''}</div>
+                        </div>
+                        <div class="btn-group btn-group-sm">
+                          <button class="btn btn-outline-primary" data-alt-id="${a.id}">Scegli</button>
+                          <button class="btn btn-outline-dark" data-promote-id="${a.id}">Rendi principale</button>
+                        </div>
                       </div>
-                      <span class="badge bg-primary">Scegli</span>
-                    </button>`)
+                    </div>`)
                   .join('')}
+                ${promotions[dish.id] ? `
+                  <div class="list-group-item">
+                    <button class="btn btn-sm btn-outline-warning" data-promote-reset>Ripristina piatto originale</button>
+                  </div>` : ''}
               </div>
             `;
             if (isTwoCol && rootSide) {
@@ -388,6 +453,33 @@ function buildAppUI(rootMain, rootSide, data) {
                   renderDay();
                 });
               });
+              // promotions
+              rootSide.querySelectorAll('[data-promote-id]').forEach((btnPro) => {
+                btnPro.addEventListener('click', () => {
+                  const altId = btnPro.getAttribute('data-promote-id');
+                  if (altId && altId.startsWith('orig:')) {
+                    delete promotions[dish.id];
+                  } else {
+                    promotions[dish.id] = altId;
+                    // if day selection equals new main, clear it
+                    const currSel = currentChoiceForDish(selections, day, mealType, dish);
+                    if (currSel && currSel === altId) {
+                      setChoiceForDish(selections, day, mealType, dish, null);
+                      setSelections(selections);
+                    }
+                  }
+                  setPromotions(promotions);
+                  showToast('Piatto principale aggiornato', 'primary');
+                  renderDay();
+                });
+              });
+              const btnReset = rootSide.querySelector('[data-promote-reset]');
+              if (btnReset) btnReset.addEventListener('click', () => {
+                delete promotions[dish.id];
+                setPromotions(promotions);
+                showToast('Ripristinato piatto principale originale', 'warning');
+                renderDay();
+              });
             } else {
               const panel = li.querySelector('[data-inline-panel]');
               if (panel) panel.innerHTML = altsHtml;
@@ -399,6 +491,32 @@ function buildAppUI(rootMain, rootSide, data) {
                   showToast('Alternativa applicata', 'success');
                   renderDay(mealType);
                 });
+              });
+              // promotions inline
+              li.querySelectorAll('[data-promote-id]').forEach((btnPro) => {
+                btnPro.addEventListener('click', () => {
+                  const altId = btnPro.getAttribute('data-promote-id');
+                  if (altId && altId.startsWith('orig:')) {
+                    delete promotions[dish.id];
+                  } else {
+                    promotions[dish.id] = altId;
+                    const currSel = currentChoiceForDish(selections, day, mealType, dish);
+                    if (currSel && currSel === altId) {
+                      setChoiceForDish(selections, day, mealType, dish, null);
+                      setSelections(selections);
+                    }
+                  }
+                  setPromotions(promotions);
+                  showToast('Piatto principale aggiornato', 'primary');
+                  renderDay(mealType);
+                });
+              });
+              const btnReset = li.querySelector('[data-promote-reset]');
+              if (btnReset) btnReset.addEventListener('click', () => {
+                delete promotions[dish.id];
+                setPromotions(promotions);
+                showToast('Ripristinato piatto principale originale', 'warning');
+                renderDay(mealType);
               });
             }
           } else if (act === 'note') {
