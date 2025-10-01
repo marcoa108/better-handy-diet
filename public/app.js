@@ -386,12 +386,12 @@ function buildAppUI(rootMain, rootSide, data) {
         <div class="btn-group btn-group-sm" role="group">
           <button id="topScopeDay" class="btn btn-outline-success active">Giorno</button>
           <button id="topScopeWeek" class="btn btn-outline-success">Settimana</button>
-          <button id="topToggle" class="btn btn-outline-secondary">Nascondi</button>
+          <button id="topToggle" class="btn btn-outline-secondary">Mostra</button>
         </div>
       </div>
       <div class="card-body" id="shoppingTopBody"></div>
     `;
-    shoppingVisible = true; // default visible in one-column
+    shoppingVisible = false; // default hidden in one-column
   }
 
   function updateDayTitle() {
